@@ -1,0 +1,27 @@
+{
+  "note": "Synthetic data only. Account IDs, ARNs and names are placeholders.",
+  "exemptions": {"arn:aws:ec2:us-east-1:111111111111:instance/i-legacy0001": "2027-03-31"},
+  "resources": [
+    {"cloud":"aws","id":"arn:aws:s3:::acme-data-lake-prod","type":"AWS::S3::Bucket","account":"111111111111",
+     "tags":{"owner":"team-data","cost-center":"cc-10442","environment":"prod","application":"data-lake","data-classification":"confidential","compliance-scope":"sox","managed-by":"terraform"}},
+    {"cloud":"aws","id":"arn:aws:ec2:us-east-1:111111111111:instance/i-0abc0001","type":"AWS::EC2::Instance","account":"111111111111",
+     "tags":{"Owner":"Team-Payments","CostCenter":"CC-10442","Env":"Prod","App":"payments-api","DataClassification":"Confidential","compliance-scope":"pci","ManagedBy":"Terraform"}},
+    {"cloud":"aws","id":"arn:aws:rds:us-east-1:111111111111:db:orders-prod","type":"AWS::RDS::DBInstance","account":"111111111111",
+     "tags":{"cost-center":"cc-20001","environment":"prod","application":"orders","data-classification":"restricted","compliance-scope":"pci","managed-by":"terraform"}},
+    {"cloud":"aws","id":"arn:aws:lambda:us-east-1:222222222222:function:sbx-demo","type":"AWS::Lambda::Function","account":"222222222222",
+     "tags":{"owner":"team-labs","cost-center":"cc-30007","environment":"sandbox","application":"demo-app","data-classification":"internal","compliance-scope":"none","managed-by":"terraform","expiry":"2026-11-25"}},
+    {"cloud":"aws","id":"arn:aws:ec2:us-east-1:111111111111:instance/i-legacy0001","type":"AWS::EC2::Instance","account":"111111111111","tags":{}},
+    {"cloud":"azure","id":"/subscriptions/00000000-0000-0000-0000-000000000001/resourceGroups/rg-core/providers/Microsoft.Storage/storageAccounts/stcoredev","type":"Microsoft.Storage/storageAccounts","account":"00000000-0000-0000-0000-000000000001",
+     "tags":{},"parent_tags":{"owner":"team-core","cost-center":"cc-10442","environment":"dev","application":"core-platform","compliance-scope":"none","managed-by":"bicep"}},
+    {"cloud":"azure","id":"/subscriptions/00000000-0000-0000-0000-000000000001/resourceGroups/rg-web/providers/Microsoft.Compute/virtualMachines/vm-web01","type":"Microsoft.Compute/virtualMachines","account":"00000000-0000-0000-0000-000000000001",
+     "tags":{"owner":"team-web","environment":"prod","data-classification":"internal","managed-by":"terraform","compliance-scope":"none"},"parent_tags":{"cost-center":"cc-40010","application":"web-frontend"}},
+    {"cloud":"azure","id":"/subscriptions/00000000-0000-0000-0000-000000000002/resourceGroups/rg-sbx/providers/Microsoft.Compute/virtualMachines/vm-sbx9","type":"Microsoft.Compute/virtualMachines","account":"00000000-0000-0000-0000-000000000002",
+     "tags":{"owner":"team-labs","cost-center":"cc-30007","environment":"sandbox","application":"experiments","data-classification":"internal","compliance-scope":"none","managed-by":"manual","expiry":"2026-10-01"}},
+    {"cloud":"gcp","id":"//storage.googleapis.com/projects/_/buckets/acme-archive-prod","type":"storage.googleapis.com/Bucket","account":"proj-archive",
+     "tags":{"owner":"team-data","cost-center":"cc-10442","environment":"prod","application":"archive","data-classification":"internal","compliance-scope":"none","managed-by":"terraform"}},
+    {"cloud":"gcp","id":"//compute.googleapis.com/projects/proj-ml/zones/us-central1-a/instances/trainer-1","type":"compute.googleapis.com/Instance","account":"proj-ml",
+     "tags":{"owner":"team-ml","data-classification":"internal","managed-by":"terraform","environment":"dev"},"parent_tags":{"cost-center":"cc-50500","application":"ml-training","compliance-scope":"none"}},
+    {"cloud":"gcp","id":"//bigquery.googleapis.com/projects/proj-fin/datasets/ledger","type":"bigquery.googleapis.com/Dataset","account":"proj-fin",
+     "tags":{"owner":"team-fin","cost-center":"cc-60001","environment":"production","application":"ledger","data-classification":"restricted","compliance-scope":"sox","managed-by":"terraform"}}
+  ]
+}

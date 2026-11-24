@@ -1,0 +1,16 @@
+name: nightly-drift-check
+on:
+  schedule: [{cron: "17 2 * * *"}]
+  workflow_dispatch:
+permissions:
+  id-token: write   # OIDC to clouds; no stored keys
+  contents: read
+jobs:
+  sweep:
+    if: ${{ vars.ENABLE_LIVE_SWEEP == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # Configure OIDC for each cloud here (aws-actions/configure-aws-credentials, azure/login, google-github-actions/auth),
+      # export inventories to inventory.json, then:
+      - run: PYTHONPATH=src python3 -m tagenforcer.cli inventory.json --out evidence/sweep.json

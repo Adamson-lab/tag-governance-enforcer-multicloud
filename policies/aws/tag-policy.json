@@ -1,0 +1,6 @@
+{"tags": {
+  "environment": {"tag_key": {"@@assign": "environment"}, "tag_value": {"@@assign": ["prod", "staging", "dev", "sandbox"]},
+                  "enforced_for": {"@@assign": ["ec2:instance", "ec2:volume", "s3:bucket", "rds:db"]}},
+  "data-classification": {"tag_key": {"@@assign": "data-classification"}, "tag_value": {"@@assign": ["public", "internal", "confidential", "restricted"]},
+                  "enforced_for": {"@@assign": ["s3:bucket", "rds:db"]}}
+}}

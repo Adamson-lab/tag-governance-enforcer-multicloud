@@ -1,0 +1,14 @@
+CLOUD  ACTION          RESOURCE
+aws    COMPLIANT       arn:aws:s3:::acme-data-lake-prod
+aws    AUTO_FIX        arn:aws:ec2:us-east-1:111111111111:instance/i-0abc0001
+aws    ESCALATE        arn:aws:rds:us-east-1:111111111111:db:orders-prod
+aws    COMPLIANT       arn:aws:lambda:us-east-1:222222222222:function:sbx-demo
+aws    EXEMPT          arn:aws:ec2:us-east-1:111111111111:instance/i-legacy0001
+azure  TICKET          /subscriptions/00000000-0000-0000-0000-000000000001/resourceGroups/rg-core/providers/Microsoft.Storage/storageAccounts/stcoredev
+azure  AUTO_FIX        /subscriptions/00000000-0000-0000-0000-000000000001/resourceGroups/rg-web/providers/Microsoft.Compute/virtualMachines/vm-web01
+azure  EXPIRY_ENFORCE  /subscriptions/00000000-0000-0000-0000-000000000002/resourceGroups/rg-sbx/providers/Microsoft.Compute/virtualMachines/vm-sbx9
+gcp    COMPLIANT       //storage.googleapis.com/projects/_/buckets/acme-archive-prod
+gcp    AUTO_FIX        //compute.googleapis.com/projects/proj-ml/zones/us-central1-a/instances/trainer-1
+gcp    TICKET          //bigquery.googleapis.com/projects/proj-fin/datasets/ledger
+
+score=36.4%  total=11  actions={'COMPLIANT': 3, 'AUTO_FIX': 3, 'ESCALATE': 1, 'EXEMPT': 1, 'TICKET': 2, 'EXPIRY_ENFORCE': 1}

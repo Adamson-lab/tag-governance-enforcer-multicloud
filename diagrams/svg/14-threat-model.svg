@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 1182" width="1180" height="1182" font-family="'Amazon Ember','Segoe UI',Helvetica,Arial,sans-serif">
+<defs><linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".28"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="1.5" stdDeviation="1.6" flood-opacity=".25"/></filter>
+<marker id="m0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#232F3E"/></marker>
+<marker id="m1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5A6B86"/></marker>
+<marker id="m2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#DD344C"/></marker>
+<marker id="m3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3F8624"/></marker>
+</defs>
+<rect width="1180" height="1182" fill="#fff"/><rect width="1180" height="64" fill="#232F3E"/><rect y="64" width="1180" height="4" fill="#FF9900"/>
+<text x="40" y="41" fill="#fff" font-size="23" font-weight="700">Threat model (STRIDE) over the data flow</text>
+<text x="1140" y="40" fill="#FF9900" font-size="13" font-weight="700" text-anchor="end">DIAGRAM 14 / 20</text>
+<text x="40" y="96" fill="#232F3E" font-size="14.5">Top threats mapped to the component they target and the control that answers them</text>
+<text x="40" y="118" fill="#5A6B86" font-size="11.5">Audience: Security / architect  |  Notation: STRIDE + data flow  |  Scope: Enforcer control plane</text>
+<rect x="40" y="136" width="170" height="770" rx="6" fill="#DD344C" fill-opacity=".04" stroke="#DD344C" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="40" y="136" width="30" height="30" fill="#DD344C"/>
+<text x="55" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">!</text>
+<text x="78" y="156" fill="#DD344C" font-size="12.5" font-weight="700">Threats</text>
+<rect x="300" y="136" width="350" height="470" rx="6" fill="#ED7100" fill-opacity=".04" stroke="#ED7100" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="300" y="136" width="30" height="30" fill="#ED7100"/>
+<text x="315" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">AWS</text>
+<text x="338" y="156" fill="#ED7100" font-size="12.5" font-weight="700">Components</text>
+<rect x="740" y="136" width="170" height="770" rx="6" fill="#3F8624" fill-opacity=".04" stroke="#3F8624" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="740" y="136" width="30" height="30" fill="#3F8624"/>
+<text x="755" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">OK</text>
+<text x="778" y="156" fill="#3F8624" font-size="12.5" font-weight="700">Mitigations</text>
+<path d="M135.0,286.0 L135.0,298.0 Q135.0,305.0 142.0,305.0 L548.0,305.0 Q555.0,305.0 555.0,298.0 L555.0,286.0" fill="none" stroke="#DD344C" stroke-width="1.8" marker-end="url(#m2)"/>
+<path d="M148.0,355.0 L362.0,355.0" fill="none" stroke="#DD344C" stroke-width="1.8" marker-end="url(#m2)"/>
+<path d="M148.0,495.0 L288.0,495.0 Q295.0,495.0 295.0,488.0 L295.0,222.0 Q295.0,215.0 302.0,215.0 L362.0,215.0" fill="none" stroke="#DD344C" stroke-width="1.8" marker-end="url(#m2)"/>
+<path d="M148.0,645.0 L278.0,645.0 Q285.0,645.0 285.0,638.0 L285.0,212.0 Q285.0,205.0 292.0,205.0 L362.0,205.0" fill="none" stroke="#DD344C" stroke-width="1.8" marker-end="url(#m2)"/>
+<path d="M148.0,795.0 L368.0,795.0 Q375.0,795.0 375.0,788.0 L375.0,586.0" fill="none" stroke="#DD344C" stroke-width="1.8" marker-end="url(#m2)"/>
+<path d="M588.0,205.0 L802.0,205.0" fill="none" stroke="#3F8624" stroke-width="1.8" marker-end="url(#m3)"/>
+<path d="M408.0,345.0 L478.0,345.0 Q485.0,345.0 485.0,338.0 L485.0,322.0 Q485.0,315.0 492.0,315.0 L808.0,315.0 Q815.0,315.0 815.0,322.0 L815.0,332.0" fill="none" stroke="#3F8624" stroke-width="1.8" marker-end="url(#m3)"/>
+<path d="M408.0,215.0 L468.0,215.0 Q475.0,215.0 475.0,222.0 L475.0,488.0 Q475.0,495.0 482.0,495.0 L802.0,495.0" fill="none" stroke="#3F8624" stroke-width="1.8" marker-end="url(#m3)"/>
+<path d="M575.0,436.0 L575.0,638.0 Q575.0,645.0 582.0,645.0 L802.0,645.0" fill="none" stroke="#3F8624" stroke-width="1.8" marker-end="url(#m3)"/>
+<path d="M395.0,586.0 L395.0,788.0 Q395.0,795.0 402.0,795.0 L802.0,795.0" fill="none" stroke="#3F8624" stroke-width="1.8" marker-end="url(#m3)"/>
+<g filter="url(#sh)"><rect x="102.0" y="182" width="46" height="46" rx="7" fill="#5A6B86"/><rect x="102.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">S</text>
+<text x="125.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">T1 Spoofed tag</text>
+<text x="125.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">evade chargeback</text>
+<g filter="url(#sh)"><rect x="102.0" y="332" width="46" height="46" rx="7" fill="#5A6B86"/><rect x="102.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">E</text>
+<text x="125.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">T2 Role abuse</text>
+<text x="125.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">writer escalation</text>
+<g filter="url(#sh)"><rect x="102.0" y="482" width="46" height="46" rx="7" fill="#5A6B86"/><rect x="102.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">T</text>
+<text x="125.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">T3 Tag poisoning</text>
+<text x="125.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">inject bad values</text>
+<g filter="url(#sh)"><rect x="102.0" y="632" width="46" height="46" rx="7" fill="#5A6B86"/><rect x="102.0" y="632" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="660.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">D</text>
+<text x="125.0" y="694" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">T4 Event flood</text>
+<text x="125.0" y="707" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">DoS ingestion</text>
+<g filter="url(#sh)"><rect x="102.0" y="782" width="46" height="46" rx="7" fill="#5A6B86"/><rect x="102.0" y="782" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="810.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">R</text>
+<text x="125.0" y="844" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">T5 Log tampering</text>
+<text x="125.0" y="857" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">hide changes</text>
+<g filter="url(#sh)"><rect x="362.0" y="182" width="46" height="46" rx="7" fill="#ED7100"/><rect x="362.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="385.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">FN</text>
+<text x="385.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Ingestion</text>
+<g filter="url(#sh)"><rect x="542.0" y="182" width="46" height="46" rx="7" fill="#ED7100"/><rect x="542.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="565.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">FN</text>
+<text x="565.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Engine</text>
+<g filter="url(#sh)"><rect x="362.0" y="332" width="46" height="46" rx="7" fill="#DD344C"/><rect x="362.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="385.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">IAM</text>
+<text x="385.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Writers</text>
+<g filter="url(#sh)"><rect x="542.0" y="332" width="46" height="46" rx="7" fill="#3B48CC"/><rect x="542.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="565.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">DDB</text>
+<text x="565.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">State store</text>
+<g filter="url(#sh)"><rect x="362.0" y="482" width="46" height="46" rx="7" fill="#7AA116"/><rect x="362.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="385.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">S3</text>
+<text x="385.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Audit log</text>
+<g filter="url(#sh)"><rect x="802.0" y="182" width="46" height="46" rx="7" fill="#DD344C"/><rect x="802.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="825.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SIG</text>
+<text x="825.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Immutable standard</text>
+<text x="825.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">signed release</text>
+<g filter="url(#sh)"><rect x="802.0" y="332" width="46" height="46" rx="7" fill="#DD344C"/><rect x="802.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="825.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">PB</text>
+<text x="825.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Tag-only role</text>
+<text x="825.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">permission boundary</text>
+<g filter="url(#sh)"><rect x="802.0" y="482" width="46" height="46" rx="7" fill="#DD344C"/><rect x="802.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="825.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">VAL</text>
+<text x="825.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Schema + regex</text>
+<text x="825.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">reject on parse</text>
+<g filter="url(#sh)"><rect x="802.0" y="632" width="46" height="46" rx="7" fill="#CC2264"/><rect x="802.0" y="632" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="825.0" y="660.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SQS</text>
+<text x="825.0" y="694" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Queue + DLQ</text>
+<text x="825.0" y="707" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">reserved concurrency</text>
+<g filter="url(#sh)"><rect x="802.0" y="782" width="46" height="46" rx="7" fill="#7AA116"/><rect x="802.0" y="782" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="825.0" y="810.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">S3</text>
+<text x="825.0" y="844" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Object Lock</text>
+<text x="825.0" y="857" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">WORM + CloudTrail</text>
+<circle cx="345.0" cy="305.0" r="9" fill="#DD344C" stroke="#fff" stroke-width="1.5"/><text x="345.0" y="308.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">1</text>
+<circle cx="253.0" cy="355.0" r="9" fill="#DD344C" stroke="#fff" stroke-width="1.5"/><text x="253.0" y="358.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">2</text>
+<circle cx="295.0" cy="395.0" r="9" fill="#DD344C" stroke="#fff" stroke-width="1.5"/><text x="295.0" y="398.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">3</text>
+<circle cx="285.0" cy="455.0" r="9" fill="#DD344C" stroke="#fff" stroke-width="1.5"/><text x="285.0" y="458.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">4</text>
+<circle cx="368.0" cy="795.0" r="9" fill="#DD344C" stroke="#fff" stroke-width="1.5"/><text x="368.0" y="798.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">5</text>
+<circle cx="693.0" cy="205.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="693.0" y="208.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">6</text>
+<circle cx="645.0" cy="315.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="645.0" y="318.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">7</text>
+<circle cx="475.0" cy="485.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="475.0" y="488.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">8</text>
+<circle cx="585.0" cy="645.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="585.0" y="648.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">9</text>
+<circle cx="495.0" cy="795.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="495.0" y="798.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">10</text>
+<line x1="40" y1="960" x2="1140" y2="960" stroke="#D5DBDB"/><text x="40" y="980" fill="#232F3E" font-size="11" font-weight="700">LEGEND</text>
+<rect x="110" y="968" width="16" height="16" rx="3" fill="#5A6B86"/><text x="132" y="980" font-size="10.5" fill="#232F3E">External system</text>
+<rect x="234.0" y="968" width="16" height="16" rx="3" fill="#ED7100"/><text x="256.0" y="980" font-size="10.5" fill="#232F3E">Compute</text>
+<rect x="313.2" y="968" width="16" height="16" rx="3" fill="#DD344C"/><text x="335.2" y="980" font-size="10.5" fill="#232F3E">Security / identity</text>
+<rect x="459.59999999999997" y="968" width="16" height="16" rx="3" fill="#3B48CC"/><text x="481.59999999999997" y="980" font-size="10.5" fill="#232F3E">Database</text>
+<rect x="544.4" y="968" width="16" height="16" rx="3" fill="#7AA116"/><text x="566.4" y="980" font-size="10.5" fill="#232F3E">Storage</text>
+<rect x="623.5999999999999" y="968" width="16" height="16" rx="3" fill="#CC2264"/><text x="645.5999999999999" y="980" font-size="10.5" fill="#232F3E">Integration / events</text>
+<line x1="110" y1="1002" x2="144" y2="1002" stroke="#232F3E" stroke-width="2"/><text x="152" y="1006" font-size="10.5" fill="#232F3E">synchronous</text>
+<line x1="241.6" y1="1002" x2="275.6" y2="1002" stroke="#5A6B86" stroke-width="2" stroke-dasharray="7 5"/><text x="283.6" y="1006" font-size="10.5" fill="#232F3E">async / event</text>
+<line x1="384.4" y1="1002" x2="418.4" y2="1002" stroke="#DD344C" stroke-width="2"/><text x="426.4" y="1006" font-size="10.5" fill="#232F3E">deny / failure</text>
+<line x1="532.8" y1="1002" x2="566.8" y2="1002" stroke="#3F8624" stroke-width="2"/><text x="574.8" y="1006" font-size="10.5" fill="#232F3E">success / write-back</text>
+<rect x="714.8" y="994" width="46" height="16" fill="none" stroke="#DD344C" stroke-width="2" stroke-dasharray="10 4 2 4"/><text x="768.8" y="1006" font-size="10.5" fill="#232F3E">trust boundary</text>
+<text x="40" y="1028" font-size="11" font-weight="700" fill="#232F3E">FLOW STEPS</text>
+<circle cx="48.0" cy="1036" r="8" fill="#DD344C"/><text x="48.0" y="1039.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">1</text><text x="62.0" y="1040" font-size="10.5" fill="#232F3E">targets  (T1 Spoofed tag &gt; Engine)</text>
+<circle cx="48.0" cy="1055" r="8" fill="#DD344C"/><text x="48.0" y="1058.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">2</text><text x="62.0" y="1059" font-size="10.5" fill="#232F3E">targets  (T2 Role abuse &gt; Writers)</text>
+<circle cx="48.0" cy="1074" r="8" fill="#DD344C"/><text x="48.0" y="1077.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">3</text><text x="62.0" y="1078" font-size="10.5" fill="#232F3E">targets  (T3 Tag poisoning &gt; Ingestion)</text>
+<circle cx="48.0" cy="1093" r="8" fill="#DD344C"/><text x="48.0" y="1096.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">4</text><text x="62.0" y="1097" font-size="10.5" fill="#232F3E">targets  (T4 Event flood &gt; Ingestion)</text>
+<circle cx="414.6666666666667" cy="1036" r="8" fill="#DD344C"/><text x="414.6666666666667" y="1039.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">5</text><text x="428.6666666666667" y="1040" font-size="10.5" fill="#232F3E">targets  (T5 Log tampering &gt; Audit log)</text>
+<circle cx="414.6666666666667" cy="1055" r="8" fill="#3F8624"/><text x="414.6666666666667" y="1058.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">6</text><text x="428.6666666666667" y="1059" font-size="10.5" fill="#232F3E">protected by  (Engine &gt; Immutable standard)</text>
+<circle cx="414.6666666666667" cy="1074" r="8" fill="#3F8624"/><text x="414.6666666666667" y="1077.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">7</text><text x="428.6666666666667" y="1078" font-size="10.5" fill="#232F3E">protected by  (Writers &gt; Tag-only role)</text>
+<circle cx="414.6666666666667" cy="1093" r="8" fill="#3F8624"/><text x="414.6666666666667" y="1096.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">8</text><text x="428.6666666666667" y="1097" font-size="10.5" fill="#232F3E">protected by  (Ingestion &gt; Schema + regex)</text>
+<circle cx="781.3333333333334" cy="1036" r="8" fill="#3F8624"/><text x="781.3333333333334" y="1039.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">9</text><text x="795.3333333333334" y="1040" font-size="10.5" fill="#232F3E">protected by  (State store &gt; Queue + DLQ)</text>
+<circle cx="781.3333333333334" cy="1055" r="8" fill="#3F8624"/><text x="781.3333333333334" y="1058.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">10</text><text x="795.3333333333334" y="1059" font-size="10.5" fill="#232F3E">protected by  (Audit log &gt; Object Lock)</text>
+<text x="40" y="1148" font-size="10.5" fill="#232F3E"><tspan font-weight="700">Note:</tspan> Residual risk: a compromised cloud admin can still change tags directly; detective loop makes that visible within minutes (see risk register R-04).</text>
+<text x="40" y="1174" font-size="9.5" fill="#8A94A6">Tag Governance Enforcer (multicloud) | Adamson-lab | Diagram 14 v1.1.0 | 2026-11-23 | Author: Favour Adamson | Synthetic placeholders only: no real account IDs.</text></svg>

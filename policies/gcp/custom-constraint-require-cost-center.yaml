@@ -1,0 +1,11 @@
+# Custom Organization Policy constraint. Syntax and resource-type support MUST be validated in a lab org before enforcement
+# (custom constraints cover a limited list of resource types; unsupported types rely on CI gate + detect/correct).
+name: organizations/ORG_ID/customConstraints/custom.requireCostCenterLabel
+resourceTypes:
+  - compute.googleapis.com/Instance
+methodTypes:
+  - CREATE
+condition: "resource.labels.exists(k, k == 'cost-center')"
+actionType: ALLOW
+displayName: Require cost-center label on Compute instances
+description: Instances must carry a cost-center label (Tag Standard v1).

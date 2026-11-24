@@ -1,0 +1,503 @@
+{
+  "standard_version": "1.0.0",
+  "evaluated_on": "2026-11-23",
+  "summary": {
+    "total": 11,
+    "score": 36.4,
+    "by_action": {
+      "COMPLIANT": 3,
+      "AUTO_FIX": 3,
+      "ESCALATE": 1,
+      "EXEMPT": 1,
+      "TICKET": 2,
+      "EXPIRY_ENFORCE": 1
+    },
+    "by_cloud": {
+      "aws": {
+        "total": 5,
+        "compliant": 3,
+        "score": 60.0
+      },
+      "azure": {
+        "total": 3,
+        "compliant": 0,
+        "score": 0.0
+      },
+      "gcp": {
+        "total": 3,
+        "compliant": 1,
+        "score": 33.3
+      }
+    }
+  },
+  "results": [
+    {
+      "resource_id": "arn:aws:s3:::acme-data-lake-prod",
+      "cloud": "aws",
+      "action": "COMPLIANT",
+      "findings": [],
+      "proposed_tags": {
+        "owner": "team-data",
+        "cost-center": "cc-10442",
+        "environment": "prod",
+        "application": "data-lake",
+        "data-classification": "confidential",
+        "compliance-scope": "sox",
+        "managed-by": "terraform"
+      },
+      "changes": {},
+      "remove_keys": [],
+      "plan": []
+    },
+    {
+      "resource_id": "arn:aws:ec2:us-east-1:111111111111:instance/i-0abc0001",
+      "cloud": "aws",
+      "action": "AUTO_FIX",
+      "findings": [
+        {
+          "rule": "KEY_DRIFT",
+          "severity": "LOW",
+          "key": "owner",
+          "detail": "'Owner' -> 'owner'"
+        },
+        {
+          "rule": "VALUE_DRIFT",
+          "severity": "LOW",
+          "key": "owner",
+          "detail": "value normalised to 'team-payments'"
+        },
+        {
+          "rule": "KEY_DRIFT",
+          "severity": "LOW",
+          "key": "cost-center",
+          "detail": "'CostCenter' -> 'cost-center'"
+        },
+        {
+          "rule": "VALUE_DRIFT",
+          "severity": "LOW",
+          "key": "cost-center",
+          "detail": "value normalised to 'cc-10442'"
+        },
+        {
+          "rule": "KEY_DRIFT",
+          "severity": "LOW",
+          "key": "environment",
+          "detail": "'Env' -> 'environment'"
+        },
+        {
+          "rule": "VALUE_DRIFT",
+          "severity": "LOW",
+          "key": "environment",
+          "detail": "value normalised to 'prod'"
+        },
+        {
+          "rule": "KEY_DRIFT",
+          "severity": "LOW",
+          "key": "application",
+          "detail": "'App' -> 'application'"
+        },
+        {
+          "rule": "KEY_DRIFT",
+          "severity": "LOW",
+          "key": "data-classification",
+          "detail": "'DataClassification' -> 'data-classification'"
+        },
+        {
+          "rule": "VALUE_DRIFT",
+          "severity": "LOW",
+          "key": "data-classification",
+          "detail": "value normalised to 'confidential'"
+        },
+        {
+          "rule": "KEY_DRIFT",
+          "severity": "LOW",
+          "key": "managed-by",
+          "detail": "'ManagedBy' -> 'managed-by'"
+        },
+        {
+          "rule": "VALUE_DRIFT",
+          "severity": "LOW",
+          "key": "managed-by",
+          "detail": "value normalised to 'terraform'"
+        }
+      ],
+      "proposed_tags": {
+        "owner": "team-payments",
+        "cost-center": "cc-10442",
+        "environment": "prod",
+        "application": "payments-api",
+        "data-classification": "confidential",
+        "compliance-scope": "pci",
+        "managed-by": "terraform"
+      },
+      "changes": {
+        "owner": "team-payments",
+        "cost-center": "cc-10442",
+        "environment": "prod",
+        "application": "payments-api",
+        "data-classification": "confidential",
+        "managed-by": "terraform"
+      },
+      "remove_keys": [
+        "Owner",
+        "CostCenter",
+        "Env",
+        "App",
+        "DataClassification",
+        "ManagedBy"
+      ],
+      "plan": [
+        {
+          "api": "resourcegroupstaggingapi:TagResources",
+          "arn": "arn:aws:ec2:us-east-1:111111111111:instance/i-0abc0001",
+          "tags": {
+            "owner": "team-payments",
+            "cost-center": "cc-10442",
+            "environment": "prod",
+            "application": "payments-api",
+            "data-classification": "confidential",
+            "managed-by": "terraform"
+          }
+        },
+        {
+          "api": "resourcegroupstaggingapi:UntagResources",
+          "arn": "arn:aws:ec2:us-east-1:111111111111:instance/i-0abc0001",
+          "tag_keys": [
+            "Owner",
+            "CostCenter",
+            "Env",
+            "App",
+            "DataClassification",
+            "ManagedBy"
+          ]
+        }
+      ]
+    },
+    {
+      "resource_id": "arn:aws:rds:us-east-1:111111111111:db:orders-prod",
+      "cloud": "aws",
+      "action": "ESCALATE",
+      "findings": [
+        {
+          "rule": "MISSING_REQUIRED",
+          "severity": "CRITICAL",
+          "key": "owner",
+          "detail": "required tag 'owner' is missing"
+        }
+      ],
+      "proposed_tags": {
+        "cost-center": "cc-20001",
+        "environment": "prod",
+        "application": "orders",
+        "data-classification": "restricted",
+        "compliance-scope": "pci",
+        "managed-by": "terraform"
+      },
+      "changes": {},
+      "remove_keys": [],
+      "plan": []
+    },
+    {
+      "resource_id": "arn:aws:lambda:us-east-1:222222222222:function:sbx-demo",
+      "cloud": "aws",
+      "action": "COMPLIANT",
+      "findings": [],
+      "proposed_tags": {
+        "owner": "team-labs",
+        "cost-center": "cc-30007",
+        "environment": "sandbox",
+        "application": "demo-app",
+        "data-classification": "internal",
+        "compliance-scope": "none",
+        "managed-by": "terraform",
+        "expiry": "2026-11-25"
+      },
+      "changes": {},
+      "remove_keys": [],
+      "plan": []
+    },
+    {
+      "resource_id": "arn:aws:ec2:us-east-1:111111111111:instance/i-legacy0001",
+      "cloud": "aws",
+      "action": "EXEMPT",
+      "findings": [
+        {
+          "rule": "MISSING_REQUIRED",
+          "severity": "HIGH",
+          "key": "owner",
+          "detail": "required tag 'owner' is missing"
+        },
+        {
+          "rule": "MISSING_REQUIRED",
+          "severity": "HIGH",
+          "key": "cost-center",
+          "detail": "required tag 'cost-center' is missing"
+        },
+        {
+          "rule": "MISSING_REQUIRED",
+          "severity": "MEDIUM",
+          "key": "environment",
+          "detail": "required tag 'environment' is missing"
+        },
+        {
+          "rule": "MISSING_REQUIRED",
+          "severity": "MEDIUM",
+          "key": "application",
+          "detail": "required tag 'application' is missing"
+        },
+        {
+          "rule": "MISSING_REQUIRED",
+          "severity": "HIGH",
+          "key": "data-classification",
+          "detail": "required tag 'data-classification' is missing"
+        },
+        {
+          "rule": "MISSING_REQUIRED",
+          "severity": "MEDIUM",
+          "key": "compliance-scope",
+          "detail": "required tag 'compliance-scope' is missing"
+        },
+        {
+          "rule": "MISSING_REQUIRED",
+          "severity": "MEDIUM",
+          "key": "managed-by",
+          "detail": "required tag 'managed-by' is missing"
+        }
+      ],
+      "proposed_tags": {},
+      "changes": {},
+      "remove_keys": [],
+      "plan": []
+    },
+    {
+      "resource_id": "/subscriptions/00000000-0000-0000-0000-000000000001/resourceGroups/rg-core/providers/Microsoft.Storage/storageAccounts/stcoredev",
+      "cloud": "azure",
+      "action": "TICKET",
+      "findings": [
+        {
+          "rule": "INHERITED",
+          "severity": "LOW",
+          "key": "owner",
+          "detail": "inherited 'team-core' from parent scope"
+        },
+        {
+          "rule": "INHERITED",
+          "severity": "LOW",
+          "key": "cost-center",
+          "detail": "inherited 'cc-10442' from parent scope"
+        },
+        {
+          "rule": "INHERITED",
+          "severity": "LOW",
+          "key": "environment",
+          "detail": "inherited 'dev' from parent scope"
+        },
+        {
+          "rule": "INHERITED",
+          "severity": "LOW",
+          "key": "application",
+          "detail": "inherited 'core-platform' from parent scope"
+        },
+        {
+          "rule": "INHERITED",
+          "severity": "LOW",
+          "key": "compliance-scope",
+          "detail": "inherited 'none' from parent scope"
+        },
+        {
+          "rule": "MISSING_REQUIRED",
+          "severity": "HIGH",
+          "key": "data-classification",
+          "detail": "required tag 'data-classification' is missing"
+        },
+        {
+          "rule": "MISSING_REQUIRED",
+          "severity": "MEDIUM",
+          "key": "managed-by",
+          "detail": "required tag 'managed-by' is missing"
+        }
+      ],
+      "proposed_tags": {
+        "owner": "team-core",
+        "cost-center": "cc-10442",
+        "environment": "dev",
+        "application": "core-platform",
+        "compliance-scope": "none"
+      },
+      "changes": {
+        "owner": "team-core",
+        "cost-center": "cc-10442",
+        "environment": "dev",
+        "application": "core-platform",
+        "compliance-scope": "none"
+      },
+      "remove_keys": [],
+      "plan": []
+    },
+    {
+      "resource_id": "/subscriptions/00000000-0000-0000-0000-000000000001/resourceGroups/rg-web/providers/Microsoft.Compute/virtualMachines/vm-web01",
+      "cloud": "azure",
+      "action": "AUTO_FIX",
+      "findings": [
+        {
+          "rule": "INHERITED",
+          "severity": "LOW",
+          "key": "cost-center",
+          "detail": "inherited 'cc-40010' from parent scope"
+        },
+        {
+          "rule": "INHERITED",
+          "severity": "LOW",
+          "key": "application",
+          "detail": "inherited 'web-frontend' from parent scope"
+        }
+      ],
+      "proposed_tags": {
+        "owner": "team-web",
+        "environment": "prod",
+        "data-classification": "internal",
+        "managed-by": "terraform",
+        "compliance-scope": "none",
+        "cost-center": "cc-40010",
+        "application": "web-frontend"
+      },
+      "changes": {
+        "cost-center": "cc-40010",
+        "application": "web-frontend"
+      },
+      "remove_keys": [],
+      "plan": [
+        {
+          "api": "Microsoft.Resources/tags",
+          "operation": "Merge",
+          "scope": "/subscriptions/00000000-0000-0000-0000-000000000001/resourceGroups/rg-web/providers/Microsoft.Compute/virtualMachines/vm-web01",
+          "tags": {
+            "cost-center": "cc-40010",
+            "application": "web-frontend"
+          }
+        }
+      ]
+    },
+    {
+      "resource_id": "/subscriptions/00000000-0000-0000-0000-000000000002/resourceGroups/rg-sbx/providers/Microsoft.Compute/virtualMachines/vm-sbx9",
+      "cloud": "azure",
+      "action": "EXPIRY_ENFORCE",
+      "findings": [
+        {
+          "rule": "EXPIRED",
+          "severity": "HIGH",
+          "key": "expiry",
+          "detail": "expired 2026-10-01, grace period over"
+        }
+      ],
+      "proposed_tags": {
+        "owner": "team-labs",
+        "cost-center": "cc-30007",
+        "environment": "sandbox",
+        "application": "experiments",
+        "data-classification": "internal",
+        "compliance-scope": "none",
+        "managed-by": "manual",
+        "expiry": "2026-10-01"
+      },
+      "changes": {},
+      "remove_keys": [],
+      "plan": []
+    },
+    {
+      "resource_id": "//storage.googleapis.com/projects/_/buckets/acme-archive-prod",
+      "cloud": "gcp",
+      "action": "COMPLIANT",
+      "findings": [],
+      "proposed_tags": {
+        "owner": "team-data",
+        "cost-center": "cc-10442",
+        "environment": "prod",
+        "application": "archive",
+        "data-classification": "internal",
+        "compliance-scope": "none",
+        "managed-by": "terraform"
+      },
+      "changes": {},
+      "remove_keys": [],
+      "plan": []
+    },
+    {
+      "resource_id": "//compute.googleapis.com/projects/proj-ml/zones/us-central1-a/instances/trainer-1",
+      "cloud": "gcp",
+      "action": "AUTO_FIX",
+      "findings": [
+        {
+          "rule": "INHERITED",
+          "severity": "LOW",
+          "key": "cost-center",
+          "detail": "inherited 'cc-50500' from parent scope"
+        },
+        {
+          "rule": "INHERITED",
+          "severity": "LOW",
+          "key": "application",
+          "detail": "inherited 'ml-training' from parent scope"
+        },
+        {
+          "rule": "INHERITED",
+          "severity": "LOW",
+          "key": "compliance-scope",
+          "detail": "inherited 'none' from parent scope"
+        }
+      ],
+      "proposed_tags": {
+        "owner": "team-ml",
+        "data-classification": "internal",
+        "managed-by": "terraform",
+        "environment": "dev",
+        "cost-center": "cc-50500",
+        "application": "ml-training",
+        "compliance-scope": "none"
+      },
+      "changes": {
+        "cost-center": "cc-50500",
+        "application": "ml-training",
+        "compliance-scope": "none"
+      },
+      "remove_keys": [],
+      "plan": [
+        {
+          "api": "labels.update",
+          "resource": "//compute.googleapis.com/projects/proj-ml/zones/us-central1-a/instances/trainer-1",
+          "labels": {
+            "cost-center": "cc-50500",
+            "application": "ml-training",
+            "compliance-scope": "none"
+          },
+          "remove": []
+        }
+      ]
+    },
+    {
+      "resource_id": "//bigquery.googleapis.com/projects/proj-fin/datasets/ledger",
+      "cloud": "gcp",
+      "action": "TICKET",
+      "findings": [
+        {
+          "rule": "INVALID_VALUE",
+          "severity": "MEDIUM",
+          "key": "environment",
+          "detail": "value 'production' violates the 'environment' rule"
+        }
+      ],
+      "proposed_tags": {
+        "owner": "team-fin",
+        "cost-center": "cc-60001",
+        "environment": "production",
+        "application": "ledger",
+        "data-classification": "restricted",
+        "compliance-scope": "sox",
+        "managed-by": "terraform"
+      },
+      "changes": {},
+      "remove_keys": [],
+      "plan": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+name: ci
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: make test
+      - run: make diagrams && git diff --exit-code diagrams/svg docs/diagram-index.md
+  policy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: open-policy-agent/setup-opa@v2
+        with: {version: "0.70.0"}
+      - run: opa test policies/opa -v
+  terraform:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix: {module: [aws, azure, gcp]}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: hashicorp/setup-terraform@v3
+      - run: terraform -chdir=infra/modules/${{ matrix.module }} init -backend=false
+      - run: terraform -chdir=infra/modules/${{ matrix.module }} validate

@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1570 920" width="1570" height="920" font-family="'Amazon Ember','Segoe UI',Helvetica,Arial,sans-serif">
+<defs><linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".28"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="1.5" stdDeviation="1.6" flood-opacity=".25"/></filter>
+<marker id="m0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#232F3E"/></marker>
+<marker id="m1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5A6B86"/></marker>
+<marker id="m2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#DD344C"/></marker>
+<marker id="m3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3F8624"/></marker>
+</defs>
+<rect width="1570" height="920" fill="#fff"/><rect width="1570" height="64" fill="#232F3E"/><rect y="64" width="1570" height="4" fill="#FF9900"/>
+<text x="40" y="41" fill="#fff" font-size="23" font-weight="700">AWS reference architecture (live deployment)</text>
+<text x="1530" y="40" fill="#FF9900" font-size="13" font-weight="700" text-anchor="end">DIAGRAM 05 / 20</text>
+<text x="40" y="96" fill="#232F3E" font-size="14.5">Org-level prevention, per-account detection, hub-account evaluation and remediation</text>
+<text x="40" y="118" fill="#5A6B86" font-size="11.5">Audience: Engineer / auditor  |  Notation: AWS-style  |  Scope: AWS Organization</text>
+<rect x="40" y="136" width="170" height="470" rx="6" fill="#ED7100" fill-opacity=".04" stroke="#ED7100" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="40" y="136" width="30" height="30" fill="#ED7100"/>
+<text x="55" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">AWS</text>
+<text x="78" y="156" fill="#ED7100" font-size="12.5" font-weight="700">Management account</text>
+<rect x="300" y="136" width="350" height="320" rx="6" fill="#ED7100" fill-opacity=".04" stroke="#ED7100" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="300" y="136" width="30" height="30" fill="#ED7100"/>
+<text x="315" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">AWS</text>
+<text x="338" y="156" fill="#ED7100" font-size="12.5" font-weight="700">Workload accounts (Prod, NonProd, Sandbox OUs)</text>
+<rect x="740" y="136" width="530" height="470" rx="6" fill="#ED7100" fill-opacity=".04" stroke="#ED7100" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="740" y="136" width="30" height="30" fill="#ED7100"/>
+<text x="755" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">AWS</text>
+<text x="778" y="156" fill="#ED7100" font-size="12.5" font-weight="700">Security tooling account: enforcer hub</text>
+<rect x="1360" y="136" width="170" height="470" rx="6" fill="#ED7100" fill-opacity=".04" stroke="#ED7100" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="1360" y="136" width="30" height="30" fill="#ED7100"/>
+<text x="1375" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">AWS</text>
+<text x="1398" y="156" fill="#ED7100" font-size="12.5" font-weight="700">Log archive account</text>
+<path d="M125.0,332.0 L125.0,286.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M148.0,495.0 L288.0,495.0 Q295.0,495.0 295.0,488.0 L295.0,222.0 Q295.0,215.0 302.0,215.0 L362.0,215.0" fill="none" stroke="#DD344C" stroke-width="1.8" marker-end="url(#m2)"/>
+<path d="M408.0,205.0 L542.0,205.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M385.0,286.0 L385.0,332.0" fill="none" stroke="#5A6B86" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#m1)"/>
+<path d="M408.0,345.0 L478.0,345.0 Q485.0,345.0 485.0,338.0 L485.0,312.0 Q485.0,305.0 492.0,305.0 L808.0,305.0 Q815.0,305.0 815.0,298.0 L815.0,286.0" fill="none" stroke="#5A6B86" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#m1)"/>
+<path d="M848.0,205.0 L982.0,205.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M1028.0,205.0 L1162.0,205.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M1162.0,215.0 L1092.0,215.0 Q1085.0,215.0 1085.0,222.0 L1085.0,338.0 Q1085.0,345.0 1078.0,345.0 L1028.0,345.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M1175.0,286.0 L1175.0,308.0 Q1175.0,315.0 1168.0,315.0 L842.0,315.0 Q835.0,315.0 835.0,322.0 L835.0,332.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M835.0,436.0 L835.0,448.0 Q835.0,455.0 842.0,455.0 L1168.0,455.0 Q1175.0,455.0 1175.0,448.0 L1175.0,436.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M1185.0,436.0 L1185.0,458.0 Q1185.0,465.0 1178.0,465.0 L582.0,465.0 Q575.0,465.0 575.0,458.0 L575.0,436.0" fill="none" stroke="#3F8624" stroke-width="1.8" marker-end="url(#m3)"/>
+<path d="M542.0,355.0 L472.0,355.0 Q465.0,355.0 465.0,348.0 L465.0,222.0 Q465.0,215.0 458.0,215.0 L408.0,215.0" fill="none" stroke="#3F8624" stroke-width="1.8" marker-end="url(#m3)"/>
+<path d="M825.0,436.0 L825.0,482.0" fill="none" stroke="#5A6B86" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#m1)"/>
+<path d="M1445.0,286.0 L1445.0,332.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M1445.0,436.0 L1445.0,482.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M1028.0,355.0 L1098.0,355.0 Q1105.0,355.0 1105.0,348.0 L1105.0,312.0 Q1105.0,305.0 1112.0,305.0 L1348.0,305.0 Q1355.0,305.0 1355.0,312.0 L1355.0,488.0 Q1355.0,495.0 1362.0,495.0 L1422.0,495.0" fill="none" stroke="#5A6B86" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#m1)"/>
+<g filter="url(#sh)"><rect x="102.0" y="182" width="46" height="46" rx="7" fill="#E7157B"/><rect x="102.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">ORG</text>
+<text x="125.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">AWS Organizations</text>
+<text x="125.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">root + OUs</text>
+<g filter="url(#sh)"><rect x="102.0" y="332" width="46" height="46" rx="7" fill="#E7157B"/><rect x="102.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">TAG</text>
+<text x="125.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Tag Policies</text>
+<text x="125.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">org-wide</text>
+<text x="125.0" y="420" fill="#8A94A6" font-size="9" text-anchor="middle">enforced_for</text>
+<g filter="url(#sh)"><rect x="102.0" y="482" width="46" height="46" rx="7" fill="#DD344C"/><rect x="102.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SCP</text>
+<text x="125.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">SCP</text>
+<text x="125.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">deny create w/o tags</text>
+<g filter="url(#sh)"><rect x="362.0" y="182" width="46" height="46" rx="7" fill="#ED7100"/><rect x="362.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="385.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">EC2</text>
+<text x="385.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Tagged resources</text>
+<text x="385.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">EC2 RDS S3 EKS</text>
+<g filter="url(#sh)"><rect x="542.0" y="182" width="46" height="46" rx="7" fill="#E7157B"/><rect x="542.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="565.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">CFG</text>
+<text x="565.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">AWS Config</text>
+<text x="565.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">required-tags rule</text>
+<g filter="url(#sh)"><rect x="362.0" y="332" width="46" height="46" rx="7" fill="#CC2264"/><rect x="362.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="385.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">EB</text>
+<text x="385.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">EventBridge rule</text>
+<text x="385.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">Tag Change on Resource</text>
+<g filter="url(#sh)"><rect x="542.0" y="332" width="46" height="46" rx="7" fill="#DD344C"/><rect x="542.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="565.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">IAM</text>
+<text x="565.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Cross-account role</text>
+<text x="565.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">ReadOnly + TagWriter</text>
+<g filter="url(#sh)"><rect x="802.0" y="182" width="46" height="46" rx="7" fill="#CC2264"/><rect x="802.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="825.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">EB</text>
+<text x="825.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Central bus</text>
+<text x="825.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">EventBridge</text>
+<g filter="url(#sh)"><rect x="982.0" y="182" width="46" height="46" rx="7" fill="#CC2264"/><rect x="982.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1005.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SQS</text>
+<text x="1005.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Ingest queue</text>
+<text x="1005.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">SQS + DLQ</text>
+<g filter="url(#sh)"><rect x="1162.0" y="182" width="46" height="46" rx="7" fill="#ED7100"/><rect x="1162.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1185.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">FN</text>
+<text x="1185.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Evaluator</text>
+<text x="1185.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">Lambda</text>
+<g filter="url(#sh)"><rect x="802.0" y="332" width="46" height="46" rx="7" fill="#CC2264"/><rect x="802.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="825.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SFN</text>
+<text x="825.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Remediation</text>
+<text x="825.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">Step Functions</text>
+<g filter="url(#sh)"><rect x="982.0" y="332" width="46" height="46" rx="7" fill="#3B48CC"/><rect x="982.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1005.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">DDB</text>
+<text x="1005.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Findings + waivers</text>
+<text x="1005.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">DynamoDB PITR</text>
+<g filter="url(#sh)"><rect x="1162.0" y="332" width="46" height="46" rx="7" fill="#ED7100"/><rect x="1162.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1185.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">FN</text>
+<text x="1185.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Tag writer</text>
+<text x="1185.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">Lambda tag-only</text>
+<g filter="url(#sh)"><rect x="802.0" y="482" width="46" height="46" rx="7" fill="#CC2264"/><rect x="802.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="825.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SNS</text>
+<text x="825.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Escalation</text>
+<text x="825.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">SNS to ServiceNow</text>
+<g filter="url(#sh)"><rect x="982.0" y="482" width="46" height="46" rx="7" fill="#DD344C"/><rect x="982.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1005.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">KMS</text>
+<text x="1005.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">CMK</text>
+<text x="1005.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">KMS</text>
+<g filter="url(#sh)"><rect x="1162.0" y="482" width="46" height="46" rx="7" fill="#E7157B"/><rect x="1162.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1185.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">CW</text>
+<text x="1185.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">SLO alarms</text>
+<text x="1185.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">CloudWatch</text>
+<g filter="url(#sh)"><rect x="1422.0" y="182" width="46" height="46" rx="7" fill="#E7157B"/><rect x="1422.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1445.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">CT</text>
+<text x="1445.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Org CloudTrail</text>
+<text x="1445.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">all regions</text>
+<g filter="url(#sh)"><rect x="1422.0" y="332" width="46" height="46" rx="7" fill="#7AA116"/><rect x="1422.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1445.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">S3</text>
+<text x="1445.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Audit bucket</text>
+<text x="1445.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">S3 Object Lock</text>
+<g filter="url(#sh)"><rect x="1422.0" y="482" width="46" height="46" rx="7" fill="#8C4FFF"/><rect x="1422.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1445.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">ATH</text>
+<text x="1445.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Athena + Glue</text>
+<text x="1445.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">reporting</text>
+<circle cx="125.0" cy="307.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="125.0" y="310.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">1</text>
+<circle cx="295.0" cy="395.0" r="9" fill="#DD344C" stroke="#fff" stroke-width="1.5"/><text x="295.0" y="398.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">2</text>
+<circle cx="473.0" cy="205.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="473.0" y="208.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">3</text>
+<circle cx="385.0" cy="306.0" r="9" fill="#5A6B86" stroke="#fff" stroke-width="1.5"/><text x="385.0" y="309.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">4</text>
+<circle cx="600.0" cy="305.0" r="9" fill="#5A6B86" stroke="#fff" stroke-width="1.5"/><text x="600.0" y="308.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">5</text>
+<circle cx="913.0" cy="205.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="913.0" y="208.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">6</text>
+<circle cx="1093.0" cy="205.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="1093.0" y="208.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">7</text>
+<circle cx="1085.0" cy="300.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="1085.0" y="303.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">8</text>
+<circle cx="925.0" cy="315.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="925.0" y="318.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">9</text>
+<circle cx="1005.0" cy="455.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="1005.0" y="458.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">10</text>
+<circle cx="905.0" cy="465.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="905.0" y="468.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">11</text>
+<circle cx="465.0" cy="300.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="465.0" y="303.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">12</text>
+<circle cx="825.0" cy="456.0" r="9" fill="#5A6B86" stroke="#fff" stroke-width="1.5"/><text x="825.0" y="459.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">13</text>
+<circle cx="1445.0" cy="306.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="1445.0" y="309.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">14</text>
+<circle cx="1445.0" cy="456.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="1445.0" y="459.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">15</text>
+<circle cx="1295.0" cy="305.0" r="9" fill="#5A6B86" stroke="#fff" stroke-width="1.5"/><text x="1295.0" y="308.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">16</text>
+<line x1="40" y1="660" x2="1530" y2="660" stroke="#D5DBDB"/><text x="40" y="680" fill="#232F3E" font-size="11" font-weight="700">LEGEND</text>
+<rect x="110" y="668" width="16" height="16" rx="3" fill="#E7157B"/><text x="132" y="680" font-size="10.5" fill="#232F3E">Management &amp; governance</text>
+<rect x="278.79999999999995" y="668" width="16" height="16" rx="3" fill="#DD344C"/><text x="300.79999999999995" y="680" font-size="10.5" fill="#232F3E">Security / identity</text>
+<rect x="425.19999999999993" y="668" width="16" height="16" rx="3" fill="#ED7100"/><text x="447.19999999999993" y="680" font-size="10.5" fill="#232F3E">Compute</text>
+<rect x="504.3999999999999" y="668" width="16" height="16" rx="3" fill="#CC2264"/><text x="526.3999999999999" y="680" font-size="10.5" fill="#232F3E">Integration / events</text>
+<rect x="656.3999999999999" y="668" width="16" height="16" rx="3" fill="#3B48CC"/><text x="678.3999999999999" y="680" font-size="10.5" fill="#232F3E">Database</text>
+<rect x="741.1999999999998" y="668" width="16" height="16" rx="3" fill="#7AA116"/><text x="763.1999999999998" y="680" font-size="10.5" fill="#232F3E">Storage</text>
+<rect x="820.3999999999999" y="668" width="16" height="16" rx="3" fill="#8C4FFF"/><text x="842.3999999999999" y="680" font-size="10.5" fill="#232F3E">Analytics</text>
+<line x1="110" y1="702" x2="144" y2="702" stroke="#232F3E" stroke-width="2"/><text x="152" y="706" font-size="10.5" fill="#232F3E">synchronous</text>
+<line x1="241.6" y1="702" x2="275.6" y2="702" stroke="#5A6B86" stroke-width="2" stroke-dasharray="7 5"/><text x="283.6" y="706" font-size="10.5" fill="#232F3E">async / event</text>
+<line x1="384.4" y1="702" x2="418.4" y2="702" stroke="#DD344C" stroke-width="2"/><text x="426.4" y="706" font-size="10.5" fill="#232F3E">deny / failure</text>
+<line x1="532.8" y1="702" x2="566.8" y2="702" stroke="#3F8624" stroke-width="2"/><text x="574.8" y="706" font-size="10.5" fill="#232F3E">success / write-back</text>
+<rect x="714.8" y="694" width="46" height="16" fill="none" stroke="#DD344C" stroke-width="2" stroke-dasharray="10 4 2 4"/><text x="768.8" y="706" font-size="10.5" fill="#232F3E">trust boundary</text>
+<text x="40" y="728" font-size="11" font-weight="700" fill="#232F3E">FLOW STEPS</text>
+<circle cx="48.0" cy="736" r="8" fill="#232F3E"/><text x="48.0" y="739.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">1</text><text x="62.0" y="740" font-size="10.5" fill="#232F3E">attached to OUs  (Tag Policies &gt; AWS Organizations)</text>
+<circle cx="48.0" cy="755" r="8" fill="#DD344C"/><text x="48.0" y="758.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">2</text><text x="62.0" y="759" font-size="10.5" fill="#232F3E">deny untagged create  (SCP &gt; Tagged resources)</text>
+<circle cx="48.0" cy="774" r="8" fill="#232F3E"/><text x="48.0" y="777.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">3</text><text x="62.0" y="778" font-size="10.5" fill="#232F3E">config items  (Tagged resources &gt; AWS Config)</text>
+<circle cx="48.0" cy="793" r="8" fill="#5A6B86"/><text x="48.0" y="796.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">4</text><text x="62.0" y="797" font-size="10.5" fill="#232F3E">tag events  (Tagged resources &gt; EventBridge rule)</text>
+<circle cx="48.0" cy="812" r="8" fill="#5A6B86"/><text x="48.0" y="815.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">5</text><text x="62.0" y="816" font-size="10.5" fill="#232F3E">cross-account  (EventBridge rule &gt; Central bus)</text>
+<circle cx="48.0" cy="831" r="8" fill="#232F3E"/><text x="48.0" y="834.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">6</text><text x="62.0" y="835" font-size="10.5" fill="#232F3E">rule: enforce  (Central bus &gt; Ingest queue)</text>
+<circle cx="544.6666666666667" cy="736" r="8" fill="#232F3E"/><text x="544.6666666666667" y="739.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">7</text><text x="558.6666666666667" y="740" font-size="10.5" fill="#232F3E">batch of 10  (Ingest queue &gt; Evaluator)</text>
+<circle cx="544.6666666666667" cy="755" r="8" fill="#232F3E"/><text x="544.6666666666667" y="758.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">8</text><text x="558.6666666666667" y="759" font-size="10.5" fill="#232F3E">upsert finding  (Evaluator &gt; Findings + waivers)</text>
+<circle cx="544.6666666666667" cy="774" r="8" fill="#232F3E"/><text x="544.6666666666667" y="777.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">9</text><text x="558.6666666666667" y="778" font-size="10.5" fill="#232F3E">start execution  (Evaluator &gt; Remediation)</text>
+<circle cx="544.6666666666667" cy="793" r="8" fill="#232F3E"/><text x="544.6666666666667" y="796.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">10</text><text x="558.6666666666667" y="797" font-size="10.5" fill="#232F3E">TagResources  (Remediation &gt; Tag writer)</text>
+<circle cx="544.6666666666667" cy="812" r="8" fill="#3F8624"/><text x="544.6666666666667" y="815.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">11</text><text x="558.6666666666667" y="816" font-size="10.5" fill="#232F3E">AssumeRole  (Tag writer &gt; Cross-account role)</text>
+<circle cx="544.6666666666667" cy="831" r="8" fill="#3F8624"/><text x="544.6666666666667" y="834.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">12</text><text x="558.6666666666667" y="835" font-size="10.5" fill="#232F3E">tags applied  (Cross-account role &gt; Tagged resources)</text>
+<circle cx="1041.3333333333335" cy="736" r="8" fill="#5A6B86"/><text x="1041.3333333333335" y="739.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">13</text><text x="1055.3333333333335" y="740" font-size="10.5" fill="#232F3E">ticket / page  (Remediation &gt; Escalation)</text>
+<circle cx="1041.3333333333335" cy="755" r="8" fill="#232F3E"/><text x="1041.3333333333335" y="758.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">14</text><text x="1055.3333333333335" y="759" font-size="10.5" fill="#232F3E">log files  (Org CloudTrail &gt; Audit bucket)</text>
+<circle cx="1041.3333333333335" cy="774" r="8" fill="#232F3E"/><text x="1041.3333333333335" y="777.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">15</text><text x="1055.3333333333335" y="778" font-size="10.5" fill="#232F3E">query  (Audit bucket &gt; Athena + Glue)</text>
+<circle cx="1041.3333333333335" cy="793" r="8" fill="#5A6B86"/><text x="1041.3333333333335" y="796.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">16</text><text x="1055.3333333333335" y="797" font-size="10.5" fill="#232F3E">export  (Findings + waivers &gt; Athena + Glue)</text>
+<text x="40" y="886" font-size="10.5" fill="#232F3E"><tspan font-weight="700">Note:</tspan> SCP deny uses aws:RequestTag conditions; only services that support tag-on-create are covered, the rest rely on detect + correct.</text>
+<text x="40" y="912" font-size="9.5" fill="#8A94A6">Tag Governance Enforcer (multicloud) | Adamson-lab | Diagram 05 v1.1.0 | 2026-11-23 | Author: Favour Adamson | Synthetic placeholders only: no real account IDs.</text></svg>

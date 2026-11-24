@@ -1,0 +1,7 @@
+{"Version": "2012-10-17", "Statement": [{
+  "Sid": "DenyCreateWithoutRequiredTags", "Effect": "Deny",
+  "Action": ["ec2:RunInstances", "rds:CreateDBInstance", "s3:CreateBucket"],
+  "Resource": "*",
+  "Condition": {"Null": {"aws:RequestTag/cost-center": "true"},
+                "StringNotLike": {"aws:PrincipalArn": ["arn:aws:iam::*:role/tag-enforcer-break-glass"]}}
+}]}

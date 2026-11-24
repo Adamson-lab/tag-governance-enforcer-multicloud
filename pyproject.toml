@@ -1,0 +1,8 @@
+[project]
+name = "tagenforcer"
+version = "1.0.0"
+description = "Org-wide tag and label enforcement engine for AWS, Azure and GCP"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+[tool.setuptools.packages.find]
+where = ["src"]

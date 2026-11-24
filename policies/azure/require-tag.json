@@ -1,0 +1,3 @@
+{"properties": {"displayName": "Require tag on resources (Tag Standard v1)", "mode": "Indexed", "policyType": "Custom",
+  "parameters": {"tagName": {"type": "String"}, "effect": {"type": "String", "allowedValues": ["Audit", "Deny", "Disabled"], "defaultValue": "Audit"}},
+  "policyRule": {"if": {"field": "[concat('tags[', parameters('tagName'), ']')]", "exists": "false"}, "then": {"effect": "[parameters('effect')]"}}}}

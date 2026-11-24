@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1470 901" width="1470" height="901" font-family="'Amazon Ember','Segoe UI',Helvetica,Arial,sans-serif">
+<defs><linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".28"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="1.5" stdDeviation="1.6" flood-opacity=".25"/></filter>
+<marker id="m0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#232F3E"/></marker>
+<marker id="m1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5A6B86"/></marker>
+<marker id="m2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#DD344C"/></marker>
+<marker id="m3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3F8624"/></marker>
+</defs>
+<rect width="1470" height="901" fill="#fff"/><rect width="1470" height="64" fill="#232F3E"/><rect y="64" width="1470" height="4" fill="#FF9900"/>
+<text x="40" y="41" fill="#fff" font-size="23" font-weight="700">Tag normalization and inheritance pipeline</text>
+<text x="1430" y="40" fill="#FF9900" font-size="13" font-weight="700" text-anchor="end">DIAGRAM 15 / 20</text>
+<text x="40" y="96" fill="#232F3E" font-size="14.5">How a messy real-world tag set becomes the canonical, cloud-valid set</text>
+<text x="40" y="118" fill="#5A6B86" font-size="11.5">Audience: Engineer  |  Notation: Pipeline  |  Scope: engine.py</text>
+<rect x="40" y="136" width="170" height="320" rx="6" fill="#7D8998" fill-opacity=".04" stroke="#7D8998" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="40" y="136" width="30" height="30" fill="#7D8998"/>
+<text x="78" y="156" fill="#7D8998" font-size="12.5" font-weight="700">Input</text>
+<rect x="300" y="136" width="350" height="320" rx="6" fill="#ED7100" fill-opacity=".04" stroke="#ED7100" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="300" y="136" width="30" height="30" fill="#ED7100"/>
+<text x="315" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">AWS</text>
+<text x="338" y="156" fill="#ED7100" font-size="12.5" font-weight="700">Normalize</text>
+<rect x="740" y="136" width="170" height="320" rx="6" fill="#0078D4" fill-opacity=".04" stroke="#0078D4" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="740" y="136" width="30" height="30" fill="#0078D4"/>
+<text x="755" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">AZ</text>
+<text x="778" y="156" fill="#0078D4" font-size="12.5" font-weight="700">Complete</text>
+<rect x="1000" y="136" width="170" height="470" rx="6" fill="#1A73E8" fill-opacity=".04" stroke="#1A73E8" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="1000" y="136" width="30" height="30" fill="#1A73E8"/>
+<text x="1015" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">GCP</text>
+<text x="1038" y="156" fill="#1A73E8" font-size="12.5" font-weight="700">Validate</text>
+<rect x="1260" y="136" width="170" height="470" rx="6" fill="#3F8624" fill-opacity=".04" stroke="#3F8624" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="1260" y="136" width="30" height="30" fill="#3F8624"/>
+<text x="1275" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">OK</text>
+<text x="1298" y="156" fill="#3F8624" font-size="12.5" font-weight="700">Decide and render</text>
+<path d="M148.0,205.0 L362.0,205.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M408.0,205.0 L542.0,205.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M542.0,215.0 L472.0,215.0 Q465.0,215.0 465.0,222.0 L465.0,338.0 Q465.0,345.0 458.0,345.0 L408.0,345.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M408.0,355.0 L542.0,355.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M148.0,345.0 L288.0,345.0 Q295.0,345.0 295.0,338.0 L295.0,312.0 Q295.0,305.0 302.0,305.0 L808.0,305.0 Q815.0,305.0 815.0,298.0 L815.0,286.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M588.0,345.0 L728.0,345.0 Q735.0,345.0 735.0,338.0 L735.0,222.0 Q735.0,215.0 742.0,215.0 L802.0,215.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M825.0,332.0 L825.0,286.0" fill="none" stroke="#DD344C" stroke-width="1.8" marker-end="url(#m2)"/>
+<path d="M848.0,205.0 L1062.0,205.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M1085.0,286.0 L1085.0,332.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M1085.0,436.0 L1085.0,482.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M1108.0,495.0 L1248.0,495.0 Q1255.0,495.0 1255.0,488.0 L1255.0,222.0 Q1255.0,215.0 1262.0,215.0 L1322.0,215.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M1345.0,286.0 L1345.0,332.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M1345.0,436.0 L1345.0,482.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<g filter="url(#sh)"><rect x="102.0" y="182" width="46" height="46" rx="7" fill="#7AA116"/><rect x="102.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">RAW</text>
+<text x="125.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Raw tags</text>
+<text x="125.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">CostCenter, Env, ...</text>
+<g filter="url(#sh)"><rect x="102.0" y="332" width="46" height="46" rx="7" fill="#7AA116"/><rect x="102.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">PAR</text>
+<text x="125.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Parent tags</text>
+<text x="125.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">RG / OU / project</text>
+<g filter="url(#sh)"><rect x="362.0" y="182" width="46" height="46" rx="7" fill="#ED7100"/><rect x="362.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="385.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SYS</text>
+<text x="385.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Drop system tags</text>
+<text x="385.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">aws: goog- azure.</text>
+<g filter="url(#sh)"><rect x="542.0" y="182" width="46" height="46" rx="7" fill="#ED7100"/><rect x="542.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="565.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">ALI</text>
+<text x="565.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Alias map</text>
+<text x="565.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">CostCenter to cost-center</text>
+<g filter="url(#sh)"><rect x="362.0" y="332" width="46" height="46" rx="7" fill="#ED7100"/><rect x="362.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="385.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">CAS</text>
+<text x="385.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Case + trim</text>
+<text x="385.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">values lowercased</text>
+<g filter="url(#sh)"><rect x="542.0" y="332" width="46" height="46" rx="7" fill="#DD344C"/><rect x="542.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="565.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">CNF</text>
+<text x="565.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Conflict check</text>
+<text x="565.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">duplicate keys</text>
+<g filter="url(#sh)"><rect x="802.0" y="182" width="46" height="46" rx="7" fill="#ED7100"/><rect x="802.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="825.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">INH</text>
+<text x="825.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Inherit</text>
+<text x="825.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">inheritable keys only</text>
+<g filter="url(#sh)"><rect x="802.0" y="332" width="46" height="46" rx="7" fill="#DD344C"/><rect x="802.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="825.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">NO</text>
+<text x="825.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Never inherit</text>
+<text x="825.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">data-classification</text>
+<g filter="url(#sh)"><rect x="1062.0" y="182" width="46" height="46" rx="7" fill="#DD344C"/><rect x="1062.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1085.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">VAL</text>
+<text x="1085.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Rules</text>
+<text x="1085.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">enum + regex + conditional</text>
+<g filter="url(#sh)"><rect x="1062.0" y="332" width="46" height="46" rx="7" fill="#DD344C"/><rect x="1062.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1085.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">LIM</text>
+<text x="1085.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Cloud limits</text>
+<text x="1085.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">count, length, charset</text>
+<g filter="url(#sh)"><rect x="1062.0" y="482" width="46" height="46" rx="7" fill="#ED7100"/><rect x="1062.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1085.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">EXP</text>
+<text x="1085.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Expiry check</text>
+<text x="1085.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">grace period</text>
+<g filter="url(#sh)"><rect x="1322.0" y="182" width="46" height="46" rx="7" fill="#E7157B"/><rect x="1322.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1345.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">DEC</text>
+<text x="1345.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Decision</text>
+<text x="1345.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">COMPLIANT ... ESCALATE</text>
+<g filter="url(#sh)"><rect x="1322.0" y="332" width="46" height="46" rx="7" fill="#ED7100"/><rect x="1322.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1345.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">REN</text>
+<text x="1345.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Render per cloud</text>
+<text x="1345.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">GCP sanitise</text>
+<g filter="url(#sh)"><rect x="1322.0" y="482" width="46" height="46" rx="7" fill="#E7157B"/><rect x="1322.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1345.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">PLN</text>
+<text x="1345.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">API plan</text>
+<text x="1345.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">no side effects</text>
+<circle cx="253.0" cy="205.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="253.0" y="208.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">1</text>
+<circle cx="473.0" cy="205.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="473.0" y="208.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">2</text>
+<circle cx="465.0" cy="300.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="465.0" y="303.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">3</text>
+<circle cx="473.0" cy="355.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="473.0" y="358.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">4</text>
+<circle cx="495.0" cy="305.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="495.0" y="308.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">5</text>
+<circle cx="735.0" cy="320.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="735.0" y="323.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">6</text>
+<circle cx="825.0" cy="307.0" r="9" fill="#DD344C" stroke="#fff" stroke-width="1.5"/><text x="825.0" y="310.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">7</text>
+<circle cx="953.0" cy="205.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="953.0" y="208.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">8</text>
+<circle cx="1085.0" cy="306.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="1085.0" y="309.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">9</text>
+<circle cx="1085.0" cy="456.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="1085.0" y="459.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">10</text>
+<circle cx="1255.0" cy="395.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="1255.0" y="398.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">11</text>
+<circle cx="1345.0" cy="306.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="1345.0" y="309.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">12</text>
+<circle cx="1345.0" cy="456.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="1345.0" y="459.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">13</text>
+<line x1="40" y1="660" x2="1430" y2="660" stroke="#D5DBDB"/><text x="40" y="680" fill="#232F3E" font-size="11" font-weight="700">LEGEND</text>
+<rect x="110" y="668" width="16" height="16" rx="3" fill="#7AA116"/><text x="132" y="680" font-size="10.5" fill="#232F3E">Storage</text>
+<rect x="189.2" y="668" width="16" height="16" rx="3" fill="#ED7100"/><text x="211.2" y="680" font-size="10.5" fill="#232F3E">Compute</text>
+<rect x="268.4" y="668" width="16" height="16" rx="3" fill="#DD344C"/><text x="290.4" y="680" font-size="10.5" fill="#232F3E">Security / identity</text>
+<rect x="414.79999999999995" y="668" width="16" height="16" rx="3" fill="#E7157B"/><text x="436.79999999999995" y="680" font-size="10.5" fill="#232F3E">Management &amp; governance</text>
+<line x1="110" y1="702" x2="144" y2="702" stroke="#232F3E" stroke-width="2"/><text x="152" y="706" font-size="10.5" fill="#232F3E">synchronous</text>
+<line x1="241.6" y1="702" x2="275.6" y2="702" stroke="#5A6B86" stroke-width="2" stroke-dasharray="7 5"/><text x="283.6" y="706" font-size="10.5" fill="#232F3E">async / event</text>
+<line x1="384.4" y1="702" x2="418.4" y2="702" stroke="#DD344C" stroke-width="2"/><text x="426.4" y="706" font-size="10.5" fill="#232F3E">deny / failure</text>
+<line x1="532.8" y1="702" x2="566.8" y2="702" stroke="#3F8624" stroke-width="2"/><text x="574.8" y="706" font-size="10.5" fill="#232F3E">success / write-back</text>
+<rect x="714.8" y="694" width="46" height="16" fill="none" stroke="#DD344C" stroke-width="2" stroke-dasharray="10 4 2 4"/><text x="768.8" y="706" font-size="10.5" fill="#232F3E">trust boundary</text>
+<text x="40" y="728" font-size="11" font-weight="700" fill="#232F3E">FLOW STEPS</text>
+<circle cx="48.0" cy="736" r="8" fill="#232F3E"/><text x="48.0" y="739.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">1</text><text x="62.0" y="740" font-size="10.5" fill="#232F3E">tags  (Raw tags &gt; Drop system tags)</text>
+<circle cx="48.0" cy="755" r="8" fill="#232F3E"/><text x="48.0" y="758.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">2</text><text x="62.0" y="759" font-size="10.5" fill="#232F3E">kept keys  (Drop system tags &gt; Alias map)</text>
+<circle cx="48.0" cy="774" r="8" fill="#232F3E"/><text x="48.0" y="777.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">3</text><text x="62.0" y="778" font-size="10.5" fill="#232F3E">canonical keys  (Alias map &gt; Case + trim)</text>
+<circle cx="48.0" cy="793" r="8" fill="#232F3E"/><text x="48.0" y="796.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">4</text><text x="62.0" y="797" font-size="10.5" fill="#232F3E">values  (Case + trim &gt; Conflict check)</text>
+<circle cx="48.0" cy="812" r="8" fill="#232F3E"/><text x="48.0" y="815.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">5</text><text x="62.0" y="816" font-size="10.5" fill="#232F3E">parent set  (Parent tags &gt; Inherit)</text>
+<circle cx="511.3333333333333" cy="736" r="8" fill="#232F3E"/><text x="511.3333333333333" y="739.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">6</text><text x="525.3333333333333" y="740" font-size="10.5" fill="#232F3E">clean set  (Conflict check &gt; Inherit)</text>
+<circle cx="511.3333333333333" cy="755" r="8" fill="#DD344C"/><text x="511.3333333333333" y="758.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">7</text><text x="525.3333333333333" y="759" font-size="10.5" fill="#232F3E">exclusion  (Never inherit &gt; Inherit)</text>
+<circle cx="511.3333333333333" cy="774" r="8" fill="#232F3E"/><text x="511.3333333333333" y="777.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">8</text><text x="525.3333333333333" y="778" font-size="10.5" fill="#232F3E">proposed  (Inherit &gt; Rules)</text>
+<circle cx="511.3333333333333" cy="793" r="8" fill="#232F3E"/><text x="511.3333333333333" y="796.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">9</text><text x="525.3333333333333" y="797" font-size="10.5" fill="#232F3E">tags  (Rules &gt; Cloud limits)</text>
+<circle cx="511.3333333333333" cy="812" r="8" fill="#232F3E"/><text x="511.3333333333333" y="815.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">10</text><text x="525.3333333333333" y="816" font-size="10.5" fill="#232F3E">tags  (Cloud limits &gt; Expiry check)</text>
+<circle cx="974.6666666666666" cy="736" r="8" fill="#232F3E"/><text x="974.6666666666666" y="739.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">11</text><text x="988.6666666666666" y="740" font-size="10.5" fill="#232F3E">findings  (Expiry check &gt; Decision)</text>
+<circle cx="974.6666666666666" cy="755" r="8" fill="#232F3E"/><text x="974.6666666666666" y="758.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">12</text><text x="988.6666666666666" y="759" font-size="10.5" fill="#232F3E">changes  (Decision &gt; Render per cloud)</text>
+<circle cx="974.6666666666666" cy="774" r="8" fill="#232F3E"/><text x="974.6666666666666" y="777.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">13</text><text x="988.6666666666666" y="778" font-size="10.5" fill="#232F3E">per-cloud  (Render per cloud &gt; API plan)</text>
+<text x="40" y="867" font-size="10.5" fill="#232F3E"><tspan font-weight="700">Note:</tspan> Every stage is a pure function covered by unit tests in tests/test_engine.py (15 tests).</text>
+<text x="40" y="893" font-size="9.5" fill="#8A94A6">Tag Governance Enforcer (multicloud) | Adamson-lab | Diagram 15 v1.1.0 | 2026-11-23 | Author: Favour Adamson | Synthetic placeholders only: no real account IDs.</text></svg>

@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1550 694" width="1550" height="694" font-family="'Amazon Ember','Segoe UI',Helvetica,Arial,sans-serif">
+<defs><linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".28"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="1.5" stdDeviation="1.6" flood-opacity=".25"/></filter>
+<marker id="m0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#232F3E"/></marker>
+<marker id="m1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5A6B86"/></marker>
+<marker id="m2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#DD344C"/></marker>
+<marker id="m3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3F8624"/></marker>
+</defs>
+<rect width="1550" height="694" fill="#fff"/><rect width="1550" height="64" fill="#232F3E"/><rect y="64" width="1550" height="4" fill="#FF9900"/>
+<text x="40" y="41" fill="#fff" font-size="23" font-weight="700">Rollout roadmap with funding gates</text>
+<text x="1510" y="40" fill="#FF9900" font-size="13" font-weight="700" text-anchor="end">DIAGRAM 20 / 20</text>
+<text x="40" y="96" fill="#232F3E" font-size="14.5">Detect first, then correct, then prevent: each wave is gated by evidence</text>
+<text x="40" y="118" fill="#5A6B86" font-size="11.5">Audience: Executive / PMO  |  Notation: Roadmap  |  Scope: Transformation</text>
+<rect x="40" y="136" width="170" height="320" rx="6" fill="#7D8998" fill-opacity=".04" stroke="#7D8998" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="40" y="136" width="30" height="30" fill="#7D8998"/>
+<text x="78" y="156" fill="#7D8998" font-size="12.5" font-weight="700">Wave 0: Foundation</text>
+<rect x="300" y="136" width="170" height="320" rx="6" fill="#ED7100" fill-opacity=".04" stroke="#ED7100" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="300" y="136" width="30" height="30" fill="#ED7100"/>
+<text x="315" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">AWS</text>
+<text x="338" y="156" fill="#ED7100" font-size="12.5" font-weight="700">Wave 1: Detect only</text>
+<rect x="560" y="136" width="170" height="320" rx="6" fill="#0078D4" fill-opacity=".04" stroke="#0078D4" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="560" y="136" width="30" height="30" fill="#0078D4"/>
+<text x="575" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">AZ</text>
+<text x="598" y="156" fill="#0078D4" font-size="12.5" font-weight="700">Wave 2: Correct non-prod</text>
+<rect x="820" y="136" width="170" height="320" rx="6" fill="#1A73E8" fill-opacity=".04" stroke="#1A73E8" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="820" y="136" width="30" height="30" fill="#1A73E8"/>
+<text x="835" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">GCP</text>
+<text x="858" y="156" fill="#1A73E8" font-size="12.5" font-weight="700">Wave 3: Prevent</text>
+<rect x="1080" y="136" width="170" height="320" rx="6" fill="#3F8624" fill-opacity=".04" stroke="#3F8624" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="1080" y="136" width="30" height="30" fill="#3F8624"/>
+<text x="1095" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">OK</text>
+<text x="1118" y="156" fill="#3F8624" font-size="12.5" font-weight="700">Wave 4: Prod + chargeback</text>
+<rect x="1340" y="136" width="170" height="320" rx="6" fill="#232F3E" fill-opacity=".04" stroke="#232F3E" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="1340" y="136" width="30" height="30" fill="#232F3E"/>
+<text x="1355" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">TG</text>
+<text x="1378" y="156" fill="#232F3E" font-size="12.5" font-weight="700">Governance</text>
+<path d="M148.0,345.0 L288.0,345.0 Q295.0,345.0 295.0,338.0 L295.0,222.0 Q295.0,215.0 302.0,215.0 L362.0,215.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M408.0,345.0 L548.0,345.0 Q555.0,345.0 555.0,338.0 L555.0,222.0 Q555.0,215.0 562.0,215.0 L622.0,215.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M668.0,345.0 L808.0,345.0 Q815.0,345.0 815.0,338.0 L815.0,222.0 Q815.0,215.0 822.0,215.0 L882.0,215.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M928.0,345.0 L1068.0,345.0 Q1075.0,345.0 1075.0,338.0 L1075.0,222.0 Q1075.0,215.0 1082.0,215.0 L1142.0,215.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M1425.0,286.0 L1425.0,332.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M1415.0,436.0 L1415.0,458.0 Q1415.0,465.0 1408.0,465.0 L472.0,465.0 Q465.0,465.0 465.0,458.0 L465.0,222.0 Q465.0,215.0 458.0,215.0 L408.0,215.0" fill="none" stroke="#3F8624" stroke-width="1.8" marker-end="url(#m3)"/>
+<g filter="url(#sh)"><rect x="102.0" y="182" width="46" height="46" rx="7" fill="#E7157B"/><rect x="102.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">ARB</text>
+<text x="125.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Standard v1 approved</text>
+<text x="125.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">ARB</text>
+<g filter="url(#sh)"><rect x="102.0" y="332" width="46" height="46" rx="7" fill="#ED7100"/><rect x="102.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SBX</text>
+<text x="125.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Sandbox deploy</text>
+<text x="125.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">1 account per cloud</text>
+<g filter="url(#sh)"><rect x="362.0" y="182" width="46" height="46" rx="7" fill="#E7157B"/><rect x="362.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="385.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">DET</text>
+<text x="385.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">All three clouds</text>
+<text x="385.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">read-only</text>
+<g filter="url(#sh)"><rect x="362.0" y="332" width="46" height="46" rx="7" fill="#8C4FFF"/><rect x="362.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="385.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">KPI</text>
+<text x="385.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Baseline score</text>
+<text x="385.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">untagged %</text>
+<g filter="url(#sh)"><rect x="622.0" y="182" width="46" height="46" rx="7" fill="#ED7100"/><rect x="622.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="645.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">FIX</text>
+<text x="645.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Auto-fix dev / sandbox</text>
+<text x="645.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">deterministic</text>
+<g filter="url(#sh)"><rect x="622.0" y="332" width="46" height="46" rx="7" fill="#CC2264"/><rect x="622.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="645.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">TKT</text>
+<text x="645.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Ticketing live</text>
+<text x="645.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">ServiceNow</text>
+<g filter="url(#sh)"><rect x="882.0" y="182" width="46" height="46" rx="7" fill="#DD344C"/><rect x="882.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="905.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">DNY</text>
+<text x="905.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Policy audit then deny</text>
+<text x="905.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">per cloud</text>
+<g filter="url(#sh)"><rect x="882.0" y="332" width="46" height="46" rx="7" fill="#DD344C"/><rect x="882.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="905.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">OPA</text>
+<text x="905.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">CI gate required</text>
+<text x="905.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">OPA</text>
+<g filter="url(#sh)"><rect x="1142.0" y="182" width="46" height="46" rx="7" fill="#ED7100"/><rect x="1142.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1165.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">FIX</text>
+<text x="1165.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Prod auto-fix</text>
+<text x="1165.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">change window</text>
+<g filter="url(#sh)"><rect x="1142.0" y="332" width="46" height="46" rx="7" fill="#8C4FFF"/><rect x="1142.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1165.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">CHG</text>
+<text x="1165.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Chargeback live</text>
+<text x="1165.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">FOCUS</text>
+<g filter="url(#sh)"><rect x="1402.0" y="182" width="46" height="46" rx="7" fill="#232F3E"/><rect x="1402.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1425.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">ARB</text>
+<text x="1425.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Architecture board</text>
+<text x="1425.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">monthly</text>
+<g filter="url(#sh)"><rect x="1402.0" y="332" width="46" height="46" rx="7" fill="#E7157B"/><rect x="1402.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1425.0" y="360.0" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">GATE</text>
+<text x="1425.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Gate: exit criteria</text>
+<text x="1425.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">evidence pack</text>
+<circle cx="295.0" cy="320.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="295.0" y="323.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">1</text>
+<circle cx="555.0" cy="320.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="555.0" y="323.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">2</text>
+<circle cx="815.0" cy="320.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="815.0" y="323.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">3</text>
+<circle cx="1075.0" cy="320.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="1075.0" y="323.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">4</text>
+<circle cx="1425.0" cy="306.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="1425.0" y="309.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">5</text>
+<circle cx="800.0" cy="465.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="800.0" y="468.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">6</text>
+<line x1="40" y1="510" x2="1510" y2="510" stroke="#D5DBDB"/><text x="40" y="530" fill="#232F3E" font-size="11" font-weight="700">LEGEND</text>
+<rect x="110" y="518" width="16" height="16" rx="3" fill="#E7157B"/><text x="132" y="530" font-size="10.5" fill="#232F3E">Management &amp; governance</text>
+<rect x="278.79999999999995" y="518" width="16" height="16" rx="3" fill="#ED7100"/><text x="300.79999999999995" y="530" font-size="10.5" fill="#232F3E">Compute</text>
+<rect x="357.99999999999994" y="518" width="16" height="16" rx="3" fill="#8C4FFF"/><text x="379.99999999999994" y="530" font-size="10.5" fill="#232F3E">Analytics</text>
+<rect x="448.4" y="518" width="16" height="16" rx="3" fill="#CC2264"/><text x="470.4" y="530" font-size="10.5" fill="#232F3E">Integration / events</text>
+<rect x="600.4" y="518" width="16" height="16" rx="3" fill="#DD344C"/><text x="622.4" y="530" font-size="10.5" fill="#232F3E">Security / identity</text>
+<rect x="746.8" y="518" width="16" height="16" rx="3" fill="#232F3E"/><text x="768.8" y="530" font-size="10.5" fill="#232F3E">People</text>
+<line x1="110" y1="552" x2="144" y2="552" stroke="#232F3E" stroke-width="2"/><text x="152" y="556" font-size="10.5" fill="#232F3E">synchronous</text>
+<line x1="241.6" y1="552" x2="275.6" y2="552" stroke="#5A6B86" stroke-width="2" stroke-dasharray="7 5"/><text x="283.6" y="556" font-size="10.5" fill="#232F3E">async / event</text>
+<line x1="384.4" y1="552" x2="418.4" y2="552" stroke="#DD344C" stroke-width="2"/><text x="426.4" y="556" font-size="10.5" fill="#232F3E">deny / failure</text>
+<line x1="532.8" y1="552" x2="566.8" y2="552" stroke="#3F8624" stroke-width="2"/><text x="574.8" y="556" font-size="10.5" fill="#232F3E">success / write-back</text>
+<rect x="714.8" y="544" width="46" height="16" fill="none" stroke="#DD344C" stroke-width="2" stroke-dasharray="10 4 2 4"/><text x="768.8" y="556" font-size="10.5" fill="#232F3E">trust boundary</text>
+<text x="40" y="578" font-size="11" font-weight="700" fill="#232F3E">FLOW STEPS</text>
+<circle cx="48.0" cy="586" r="8" fill="#232F3E"/><text x="48.0" y="589.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">1</text><text x="62.0" y="590" font-size="10.5" fill="#232F3E">gate 1  (Sandbox deploy &gt; All three clouds)</text>
+<circle cx="48.0" cy="605" r="8" fill="#232F3E"/><text x="48.0" y="608.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">2</text><text x="62.0" y="609" font-size="10.5" fill="#232F3E">gate 2  (Baseline score &gt; Auto-fix dev / sandbox)</text>
+<circle cx="538.0" cy="586" r="8" fill="#232F3E"/><text x="538.0" y="589.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">3</text><text x="552.0" y="590" font-size="10.5" fill="#232F3E">gate 3  (Ticketing live &gt; Policy audit then deny)</text>
+<circle cx="538.0" cy="605" r="8" fill="#232F3E"/><text x="538.0" y="608.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">4</text><text x="552.0" y="609" font-size="10.5" fill="#232F3E">gate 4  (CI gate required &gt; Prod auto-fix)</text>
+<circle cx="1028.0" cy="586" r="8" fill="#232F3E"/><text x="1028.0" y="589.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">5</text><text x="1042.0" y="590" font-size="10.5" fill="#232F3E">reviews  (Architecture board &gt; Gate: exit criteria)</text>
+<circle cx="1028.0" cy="605" r="8" fill="#3F8624"/><text x="1028.0" y="608.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">6</text><text x="1042.0" y="609" font-size="10.5" fill="#232F3E">approves  (Gate: exit criteria &gt; All three clouds)</text>
+<text x="40" y="660" font-size="10.5" fill="#232F3E"><tspan font-weight="700">Note:</tspan> Gate criteria: score trend, false-positive rate &lt; 1%, rollback tested, owner coverage &gt;= 95% before any deny or prod write is enabled.</text>
+<text x="40" y="686" font-size="9.5" fill="#8A94A6">Tag Governance Enforcer (multicloud) | Adamson-lab | Diagram 20 v1.1.0 | 2026-11-23 | Author: Favour Adamson | Synthetic placeholders only: no real account IDs.</text></svg>

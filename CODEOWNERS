@@ -1,0 +1,4 @@
+# Replace with real GitHub users or teams in your org before enabling required reviews.
+* @Adamson-lab/maintainers
+/policies/ @Adamson-lab/maintainers
+/docs/04-adr/ @Adamson-lab/maintainers

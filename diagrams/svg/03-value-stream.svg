@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1550 694" width="1550" height="694" font-family="'Amazon Ember','Segoe UI',Helvetica,Arial,sans-serif">
+<defs><linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".28"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="1.5" stdDeviation="1.6" flood-opacity=".25"/></filter>
+<marker id="m0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#232F3E"/></marker>
+<marker id="m1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5A6B86"/></marker>
+<marker id="m2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#DD344C"/></marker>
+<marker id="m3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3F8624"/></marker>
+</defs>
+<rect width="1550" height="694" fill="#fff"/><rect width="1550" height="64" fill="#232F3E"/><rect y="64" width="1550" height="4" fill="#FF9900"/>
+<text x="40" y="41" fill="#fff" font-size="23" font-weight="700">Value stream: from tag standard to attributed cost</text>
+<text x="1510" y="40" fill="#FF9900" font-size="13" font-weight="700" text-anchor="end">DIAGRAM 03 / 20</text>
+<text x="40" y="96" fill="#232F3E" font-size="14.5">Six stages, with the system and the pain point removed at each</text>
+<text x="40" y="118" fill="#5A6B86" font-size="11.5">Audience: Executive / architect  |  Notation: Value stream map  |  Scope: End to end</text>
+<rect x="40" y="136" width="170" height="320" rx="6" fill="#7D8998" fill-opacity=".04" stroke="#7D8998" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="40" y="136" width="30" height="30" fill="#7D8998"/>
+<text x="78" y="156" fill="#7D8998" font-size="12.5" font-weight="700">1 Define</text>
+<rect x="300" y="136" width="170" height="320" rx="6" fill="#ED7100" fill-opacity=".04" stroke="#ED7100" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="300" y="136" width="30" height="30" fill="#ED7100"/>
+<text x="315" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">AWS</text>
+<text x="338" y="156" fill="#ED7100" font-size="12.5" font-weight="700">2 Provision</text>
+<rect x="560" y="136" width="170" height="320" rx="6" fill="#0078D4" fill-opacity=".04" stroke="#0078D4" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="560" y="136" width="30" height="30" fill="#0078D4"/>
+<text x="575" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">AZ</text>
+<text x="598" y="156" fill="#0078D4" font-size="12.5" font-weight="700">3 Run</text>
+<rect x="820" y="136" width="170" height="320" rx="6" fill="#1A73E8" fill-opacity=".04" stroke="#1A73E8" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="820" y="136" width="30" height="30" fill="#1A73E8"/>
+<text x="835" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">GCP</text>
+<text x="858" y="156" fill="#1A73E8" font-size="12.5" font-weight="700">4 Correct</text>
+<rect x="1080" y="136" width="170" height="320" rx="6" fill="#3F8624" fill-opacity=".04" stroke="#3F8624" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="1080" y="136" width="30" height="30" fill="#3F8624"/>
+<text x="1095" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">OK</text>
+<text x="1118" y="156" fill="#3F8624" font-size="12.5" font-weight="700">5 Attribute</text>
+<rect x="1340" y="136" width="170" height="320" rx="6" fill="#8C4FFF" fill-opacity=".04" stroke="#8C4FFF" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="1340" y="136" width="30" height="30" fill="#8C4FFF"/>
+<text x="1378" y="156" fill="#8C4FFF" font-size="12.5" font-weight="700">6 Improve</text>
+<path d="M148.0,345.0 L288.0,345.0 Q295.0,345.0 295.0,338.0 L295.0,222.0 Q295.0,215.0 302.0,215.0 L362.0,215.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M408.0,345.0 L548.0,345.0 Q555.0,345.0 555.0,338.0 L555.0,222.0 Q555.0,215.0 562.0,215.0 L622.0,215.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M668.0,345.0 L808.0,345.0 Q815.0,345.0 815.0,338.0 L815.0,222.0 Q815.0,215.0 822.0,215.0 L882.0,215.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M928.0,205.0 L1142.0,205.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M1188.0,345.0 L1328.0,345.0 Q1335.0,345.0 1335.0,338.0 L1335.0,222.0 Q1335.0,215.0 1342.0,215.0 L1402.0,215.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M1415.0,436.0 L1415.0,458.0 Q1415.0,465.0 1408.0,465.0 L212.0,465.0 Q205.0,465.0 205.0,458.0 L205.0,222.0 Q205.0,215.0 198.0,215.0 L148.0,215.0" fill="none" stroke="#5A6B86" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#m1)"/>
+<g filter="url(#sh)"><rect x="102.0" y="182" width="46" height="46" rx="7" fill="#232F3E"/><rect x="102.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">CoE</text>
+<text x="125.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Standard proposed</text>
+<text x="125.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">CCoE + FinOps</text>
+<g filter="url(#sh)"><rect x="102.0" y="332" width="46" height="46" rx="7" fill="#E7157B"/><rect x="102.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">ARB</text>
+<text x="125.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Approved by ARB</text>
+<text x="125.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">versioned release</text>
+<g filter="url(#sh)"><rect x="362.0" y="182" width="46" height="46" rx="7" fill="#ED7100"/><rect x="362.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="385.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">PR</text>
+<text x="385.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">IaC PR with tags</text>
+<text x="385.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">module defaults</text>
+<g filter="url(#sh)"><rect x="362.0" y="332" width="46" height="46" rx="7" fill="#DD344C"/><rect x="362.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="385.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">OPA</text>
+<text x="385.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Policy gate</text>
+<text x="385.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">plan blocked if bad</text>
+<g filter="url(#sh)"><rect x="622.0" y="182" width="46" height="46" rx="7" fill="#CC2264"/><rect x="622.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="645.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">EVT</text>
+<text x="645.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Event + sweep</text>
+<text x="645.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">inventory</text>
+<g filter="url(#sh)"><rect x="622.0" y="332" width="46" height="46" rx="7" fill="#ED7100"/><rect x="622.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="645.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">EVL</text>
+<text x="645.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Evaluate</text>
+<text x="645.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">vs standard</text>
+<g filter="url(#sh)"><rect x="882.0" y="182" width="46" height="46" rx="7" fill="#ED7100"/><rect x="882.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="905.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">FIX</text>
+<text x="905.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Auto-fix</text>
+<text x="905.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">merge tags</text>
+<g filter="url(#sh)"><rect x="882.0" y="332" width="46" height="46" rx="7" fill="#CC2264"/><rect x="882.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="905.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">TKT</text>
+<text x="905.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Ticket / escalate</text>
+<text x="905.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">owner resolves</text>
+<g filter="url(#sh)"><rect x="1142.0" y="182" width="46" height="46" rx="7" fill="#8C4FFF"/><rect x="1142.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1165.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">FO</text>
+<text x="1165.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Join billing + tags</text>
+<text x="1165.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">FOCUS</text>
+<g filter="url(#sh)"><rect x="1142.0" y="332" width="46" height="46" rx="7" fill="#8C4FFF"/><rect x="1142.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1165.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">CHG</text>
+<text x="1165.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Showback and</text>
+<text x="1165.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">chargeback</text>
+<g filter="url(#sh)"><rect x="1402.0" y="182" width="46" height="46" rx="7" fill="#E7157B"/><rect x="1402.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1425.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">KPI</text>
+<text x="1425.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Quarterly review</text>
+<text x="1425.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">drift trends</text>
+<g filter="url(#sh)"><rect x="1402.0" y="332" width="46" height="46" rx="7" fill="#E7157B"/><rect x="1402.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1425.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">ADR</text>
+<text x="1425.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Standard v+1</text>
+<text x="1425.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">via ADR</text>
+<circle cx="295.0" cy="320.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="295.0" y="323.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">1</text>
+<circle cx="555.0" cy="320.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="555.0" y="323.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">2</text>
+<circle cx="815.0" cy="320.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="815.0" y="323.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">3</text>
+<circle cx="1033.0" cy="205.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="1033.0" y="208.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">4</text>
+<circle cx="1335.0" cy="320.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="1335.0" y="323.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">5</text>
+<circle cx="670.0" cy="465.0" r="9" fill="#5A6B86" stroke="#fff" stroke-width="1.5"/><text x="670.0" y="468.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">6</text>
+<line x1="40" y1="510" x2="1510" y2="510" stroke="#D5DBDB"/><text x="40" y="530" fill="#232F3E" font-size="11" font-weight="700">LEGEND</text>
+<rect x="110" y="518" width="16" height="16" rx="3" fill="#232F3E"/><text x="132" y="530" font-size="10.5" fill="#232F3E">People</text>
+<rect x="183.6" y="518" width="16" height="16" rx="3" fill="#E7157B"/><text x="205.6" y="530" font-size="10.5" fill="#232F3E">Management &amp; governance</text>
+<rect x="352.4" y="518" width="16" height="16" rx="3" fill="#ED7100"/><text x="374.4" y="530" font-size="10.5" fill="#232F3E">Compute</text>
+<rect x="431.59999999999997" y="518" width="16" height="16" rx="3" fill="#DD344C"/><text x="453.59999999999997" y="530" font-size="10.5" fill="#232F3E">Security / identity</text>
+<rect x="578.0" y="518" width="16" height="16" rx="3" fill="#CC2264"/><text x="600.0" y="530" font-size="10.5" fill="#232F3E">Integration / events</text>
+<rect x="730.0" y="518" width="16" height="16" rx="3" fill="#8C4FFF"/><text x="752.0" y="530" font-size="10.5" fill="#232F3E">Analytics</text>
+<line x1="110" y1="552" x2="144" y2="552" stroke="#232F3E" stroke-width="2"/><text x="152" y="556" font-size="10.5" fill="#232F3E">synchronous</text>
+<line x1="241.6" y1="552" x2="275.6" y2="552" stroke="#5A6B86" stroke-width="2" stroke-dasharray="7 5"/><text x="283.6" y="556" font-size="10.5" fill="#232F3E">async / event</text>
+<line x1="384.4" y1="552" x2="418.4" y2="552" stroke="#DD344C" stroke-width="2"/><text x="426.4" y="556" font-size="10.5" fill="#232F3E">deny / failure</text>
+<line x1="532.8" y1="552" x2="566.8" y2="552" stroke="#3F8624" stroke-width="2"/><text x="574.8" y="556" font-size="10.5" fill="#232F3E">success / write-back</text>
+<rect x="714.8" y="544" width="46" height="16" fill="none" stroke="#DD344C" stroke-width="2" stroke-dasharray="10 4 2 4"/><text x="768.8" y="556" font-size="10.5" fill="#232F3E">trust boundary</text>
+<text x="40" y="578" font-size="11" font-weight="700" fill="#232F3E">FLOW STEPS</text>
+<circle cx="48.0" cy="586" r="8" fill="#232F3E"/><text x="48.0" y="589.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">1</text><text x="62.0" y="590" font-size="10.5" fill="#232F3E">published  (Approved by ARB &gt; IaC PR with tags)</text>
+<circle cx="48.0" cy="605" r="8" fill="#232F3E"/><text x="48.0" y="608.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">2</text><text x="62.0" y="609" font-size="10.5" fill="#232F3E">deployed  (Policy gate &gt; Event + sweep)</text>
+<circle cx="538.0" cy="586" r="8" fill="#232F3E"/><text x="538.0" y="589.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">3</text><text x="552.0" y="590" font-size="10.5" fill="#232F3E">findings  (Evaluate &gt; Auto-fix)</text>
+<circle cx="538.0" cy="605" r="8" fill="#232F3E"/><text x="538.0" y="608.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">4</text><text x="552.0" y="609" font-size="10.5" fill="#232F3E">clean tags  (Auto-fix &gt; Join billing + tags)</text>
+<circle cx="1028.0" cy="586" r="8" fill="#232F3E"/><text x="1028.0" y="589.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">5</text><text x="1042.0" y="590" font-size="10.5" fill="#232F3E">untagged %  (Showback and &gt; Quarterly review)</text>
+<circle cx="1028.0" cy="605" r="8" fill="#5A6B86"/><text x="1028.0" y="608.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">6</text><text x="1042.0" y="609" font-size="10.5" fill="#232F3E">feedback loop  (Standard v+1 &gt; Standard proposed)</text>
+<text x="40" y="660" font-size="10.5" fill="#232F3E"><tspan font-weight="700">Note:</tspan> Pain removed: manual spreadsheet reconciliation of untagged spend, ownerless incidents, audit scramble.</text>
+<text x="40" y="686" font-size="9.5" fill="#8A94A6">Tag Governance Enforcer (multicloud) | Adamson-lab | Diagram 03 v1.1.0 | 2026-11-23 | Author: Favour Adamson | Synthetic placeholders only: no real account IDs.</text></svg>

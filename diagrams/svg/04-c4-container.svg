@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 1430" width="1180" height="1430" font-family="'Amazon Ember','Segoe UI',Helvetica,Arial,sans-serif">
+<defs><linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".28"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="1.5" stdDeviation="1.6" flood-opacity=".25"/></filter>
+<marker id="m0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#232F3E"/></marker>
+<marker id="m1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5A6B86"/></marker>
+<marker id="m2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#DD344C"/></marker>
+<marker id="m3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3F8624"/></marker>
+</defs>
+<rect width="1180" height="1430" fill="#fff"/><rect width="1180" height="64" fill="#232F3E"/><rect y="64" width="1180" height="4" fill="#FF9900"/>
+<text x="40" y="41" fill="#fff" font-size="23" font-weight="700">C4 container view of the enforcer</text>
+<text x="1140" y="40" fill="#FF9900" font-size="13" font-weight="700" text-anchor="end">DIAGRAM 04 / 20</text>
+<text x="40" y="96" fill="#232F3E" font-size="14.5">Deployable units, their technology and the trust relationships between them</text>
+<text x="40" y="118" fill="#5A6B86" font-size="11.5">Audience: Architect / engineer  |  Notation: C4 level 2  |  Scope: Tag Governance Enforcer</text>
+<rect x="40" y="136" width="170" height="470" rx="6" fill="#7D8998" fill-opacity=".04" stroke="#7D8998" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="40" y="136" width="30" height="30" fill="#7D8998"/>
+<text x="78" y="156" fill="#7D8998" font-size="12.5" font-weight="700">Cloud collectors (read-only)</text>
+<rect x="40" y="646" width="170" height="470" rx="6" fill="#DD344C" fill-opacity=".04" stroke="#DD344C" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="40" y="646" width="30" height="30" fill="#DD344C"/>
+<text x="55" y="665" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">!</text>
+<text x="78" y="666" fill="#DD344C" font-size="12.5" font-weight="700">Scoped writers (tag-only)</text>
+<rect x="300" y="136" width="350" height="620" rx="6" fill="#ED7100" fill-opacity=".04" stroke="#ED7100" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="300" y="136" width="30" height="30" fill="#ED7100"/>
+<text x="315" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">AWS</text>
+<text x="338" y="156" fill="#ED7100" font-size="12.5" font-weight="700">Control plane (hub account)</text>
+<rect x="740" y="136" width="170" height="620" rx="6" fill="#7D8998" fill-opacity=".04" stroke="#7D8998" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="740" y="136" width="30" height="30" fill="#7D8998"/>
+<text x="778" y="156" fill="#7D8998" font-size="12.5" font-weight="700">Consumers</text>
+<path d="M148.0,205.0 L362.0,205.0" fill="none" stroke="#5A6B86" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#m1)"/>
+<path d="M148.0,345.0 L288.0,345.0 Q295.0,345.0 295.0,338.0 L295.0,222.0 Q295.0,215.0 302.0,215.0 L362.0,215.0" fill="none" stroke="#5A6B86" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#m1)"/>
+<path d="M148.0,495.0 L278.0,495.0 Q285.0,495.0 285.0,488.0 L285.0,202.0 Q285.0,195.0 292.0,195.0 L362.0,195.0" fill="none" stroke="#5A6B86" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#m1)"/>
+<path d="M408.0,205.0 L542.0,205.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M588.0,495.0 L638.0,495.0 Q645.0,495.0 645.0,488.0 L645.0,222.0 Q645.0,215.0 638.0,215.0 L588.0,215.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M408.0,345.0 L478.0,345.0 Q485.0,345.0 485.0,338.0 L485.0,222.0 Q485.0,215.0 492.0,215.0 L542.0,215.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M542.0,195.0 L472.0,195.0 Q465.0,195.0 465.0,202.0 L465.0,488.0 Q465.0,495.0 458.0,495.0 L408.0,495.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M565.0,286.0 L565.0,332.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M555.0,436.0 L555.0,458.0 Q555.0,465.0 548.0,465.0 L302.0,465.0 Q295.0,465.0 295.0,472.0 L295.0,698.0 Q295.0,705.0 288.0,705.0 L148.0,705.0" fill="none" stroke="#3F8624" stroke-width="1.8" marker-end="url(#m3)"/>
+<path d="M542.0,365.0 L482.0,365.0 Q475.0,365.0 475.0,372.0 L475.0,848.0 Q475.0,855.0 468.0,855.0 L148.0,855.0" fill="none" stroke="#3F8624" stroke-width="1.8" marker-end="url(#m3)"/>
+<path d="M542.0,355.0 L492.0,355.0 Q485.0,355.0 485.0,362.0 L485.0,998.0 Q485.0,1005.0 478.0,1005.0 L148.0,1005.0" fill="none" stroke="#3F8624" stroke-width="1.8" marker-end="url(#m3)"/>
+<path d="M385.0,586.0 L385.0,632.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M408.0,515.0 L458.0,515.0 Q465.0,515.0 465.0,522.0 L465.0,638.0 Q465.0,645.0 472.0,645.0 L542.0,645.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M395.0,632.0 L395.0,612.0 Q395.0,605.0 402.0,605.0 L728.0,605.0 Q735.0,605.0 735.0,598.0 L735.0,372.0 Q735.0,365.0 742.0,365.0 L802.0,365.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M408.0,645.0 L448.0,645.0 Q455.0,645.0 455.0,638.0 L455.0,622.0 Q455.0,615.0 462.0,615.0 L718.0,615.0 Q725.0,615.0 725.0,608.0 L725.0,222.0 Q725.0,215.0 732.0,215.0 L802.0,215.0" fill="none" stroke="#5A6B86" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#m1)"/>
+<path d="M588.0,645.0 L728.0,645.0 Q735.0,645.0 735.0,638.0 L735.0,622.0 Q735.0,615.0 742.0,615.0 L808.0,615.0 Q815.0,615.0 815.0,608.0 L815.0,586.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M395.0,482.0 L395.0,462.0 Q395.0,455.0 402.0,455.0 L708.0,455.0 Q715.0,455.0 715.0,462.0 L715.0,648.0 Q715.0,655.0 722.0,655.0 L802.0,655.0" fill="none" stroke="#5A6B86" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#m1)"/>
+<g filter="url(#sh)"><rect x="102.0" y="182" width="46" height="46" rx="7" fill="#ED7100"/><rect x="102.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">FN</text>
+<text x="125.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">AWS collector</text>
+<text x="125.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">Config + EventBridge</text>
+<g filter="url(#sh)"><rect x="102.0" y="332" width="46" height="46" rx="7" fill="#0078D4"/><rect x="102.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">FN</text>
+<text x="125.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Azure collector</text>
+<text x="125.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">Event Grid + Graph</text>
+<g filter="url(#sh)"><rect x="102.0" y="482" width="46" height="46" rx="7" fill="#1A73E8"/><rect x="102.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">CF</text>
+<text x="125.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">GCP collector</text>
+<text x="125.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">Asset feed + Pub/Sub</text>
+<g filter="url(#sh)"><rect x="102.0" y="692" width="46" height="46" rx="7" fill="#DD344C"/><rect x="102.0" y="692" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="720.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">IAM</text>
+<text x="125.0" y="754" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">TagWriter role</text>
+<text x="125.0" y="767" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">AWS</text>
+<g filter="url(#sh)"><rect x="102.0" y="842" width="46" height="46" rx="7" fill="#DD344C"/><rect x="102.0" y="842" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="870.0" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">RBAC</text>
+<text x="125.0" y="904" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Tag Contributor</text>
+<text x="125.0" y="917" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">Azure</text>
+<g filter="url(#sh)"><rect x="102.0" y="992" width="46" height="46" rx="7" fill="#DD344C"/><rect x="102.0" y="992" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="1020.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">IAM</text>
+<text x="125.0" y="1054" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Tag admin role</text>
+<text x="125.0" y="1067" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">GCP</text>
+<g filter="url(#sh)"><rect x="362.0" y="182" width="46" height="46" rx="7" fill="#ED7100"/><rect x="362.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="385.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">FN</text>
+<text x="385.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Normalizer</text>
+<text x="385.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">adapters.py</text>
+<g filter="url(#sh)"><rect x="542.0" y="182" width="46" height="46" rx="7" fill="#ED7100"/><rect x="542.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="565.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">FN</text>
+<text x="565.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Policy engine</text>
+<text x="565.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">engine.py</text>
+<g filter="url(#sh)"><rect x="362.0" y="332" width="46" height="46" rx="7" fill="#ED7100"/><rect x="362.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="385.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">FN</text>
+<text x="385.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Exception service</text>
+<text x="385.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">waivers + expiry</text>
+<g filter="url(#sh)"><rect x="542.0" y="332" width="46" height="46" rx="7" fill="#CC2264"/><rect x="542.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="565.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SFN</text>
+<text x="565.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Remediation</text>
+<text x="565.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">Step Functions</text>
+<g filter="url(#sh)"><rect x="362.0" y="482" width="46" height="46" rx="7" fill="#3B48CC"/><rect x="362.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="385.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">DDB</text>
+<text x="385.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">State store</text>
+<text x="385.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">DynamoDB</text>
+<g filter="url(#sh)"><rect x="542.0" y="482" width="46" height="46" rx="7" fill="#7AA116"/><rect x="542.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="565.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">S3</text>
+<text x="565.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Standard registry</text>
+<text x="565.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">S3 versioned</text>
+<g filter="url(#sh)"><rect x="362.0" y="632" width="46" height="46" rx="7" fill="#8C4FFF"/><rect x="362.0" y="632" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="385.0" y="660.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">API</text>
+<text x="385.0" y="694" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Findings API</text>
+<text x="385.0" y="707" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">REST + OIDC</text>
+<g filter="url(#sh)"><rect x="542.0" y="632" width="46" height="46" rx="7" fill="#8C4FFF"/><rect x="542.0" y="632" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="565.0" y="660.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">ATH</text>
+<text x="565.0" y="694" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Reporting</text>
+<text x="565.0" y="707" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">Athena + Glue</text>
+<g filter="url(#sh)"><rect x="802.0" y="182" width="46" height="46" rx="7" fill="#5A6B86"/><rect x="802.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="825.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SN</text>
+<text x="825.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">ServiceNow</text>
+<text x="825.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">tickets</text>
+<g filter="url(#sh)"><rect x="802.0" y="332" width="46" height="46" rx="7" fill="#8C4FFF"/><rect x="802.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="825.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">QS</text>
+<text x="825.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Dashboard</text>
+<text x="825.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">QuickSight</text>
+<g filter="url(#sh)"><rect x="802.0" y="482" width="46" height="46" rx="7" fill="#5A6B86"/><rect x="802.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="825.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">FO</text>
+<text x="825.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">FinOps platform</text>
+<text x="825.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">FOCUS</text>
+<g filter="url(#sh)"><rect x="802.0" y="632" width="46" height="46" rx="7" fill="#5A6B86"/><rect x="802.0" y="632" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="825.0" y="660.0" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">SIEM</text>
+<text x="825.0" y="694" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">SIEM</text>
+<text x="825.0" y="707" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">findings</text>
+<circle cx="253.0" cy="205.0" r="9" fill="#5A6B86" stroke="#fff" stroke-width="1.5"/><text x="253.0" y="208.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">1</text>
+<circle cx="295.0" cy="320.0" r="9" fill="#5A6B86" stroke="#fff" stroke-width="1.5"/><text x="295.0" y="323.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">2</text>
+<circle cx="285.0" cy="375.0" r="9" fill="#5A6B86" stroke="#fff" stroke-width="1.5"/><text x="285.0" y="378.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">3</text>
+<circle cx="473.0" cy="205.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="473.0" y="208.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">4</text>
+<circle cx="645.0" cy="315.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="645.0" y="318.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">5</text>
+<circle cx="485.0" cy="300.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="485.0" y="303.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">6</text>
+<circle cx="465.0" cy="450.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="465.0" y="453.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">7</text>
+<circle cx="565.0" cy="306.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="565.0" y="309.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">8</text>
+<circle cx="295.0" cy="515.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="295.0" y="518.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">9</text>
+<circle cx="475.0" cy="740.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="475.0" y="743.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">10</text>
+<circle cx="485.0" cy="820.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="485.0" y="823.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">11</text>
+<circle cx="385.0" cy="606.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="385.0" y="609.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">12</text>
+<circle cx="465.0" cy="600.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="465.0" y="603.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">13</text>
+<circle cx="705.0" cy="605.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="705.0" y="608.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">14</text>
+<circle cx="725.0" cy="550.0" r="9" fill="#5A6B86" stroke="#fff" stroke-width="1.5"/><text x="725.0" y="553.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">15</text>
+<circle cx="733.0" cy="645.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="733.0" y="648.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">16</text>
+<circle cx="685.0" cy="455.0" r="9" fill="#5A6B86" stroke="#fff" stroke-width="1.5"/><text x="685.0" y="458.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">17</text>
+<line x1="40" y1="1170" x2="1140" y2="1170" stroke="#D5DBDB"/><text x="40" y="1190" fill="#232F3E" font-size="11" font-weight="700">LEGEND</text>
+<rect x="110" y="1178" width="16" height="16" rx="3" fill="#ED7100"/><text x="132" y="1190" font-size="10.5" fill="#232F3E">Compute</text>
+<rect x="189.2" y="1178" width="16" height="16" rx="3" fill="#0078D4"/><text x="211.2" y="1190" font-size="10.5" fill="#232F3E">Azure service</text>
+<rect x="302.0" y="1178" width="16" height="16" rx="3" fill="#1A73E8"/><text x="324.0" y="1190" font-size="10.5" fill="#232F3E">GCP service</text>
+<rect x="403.6" y="1178" width="16" height="16" rx="3" fill="#DD344C"/><text x="425.6" y="1190" font-size="10.5" fill="#232F3E">Security / identity</text>
+<rect x="550.0" y="1178" width="16" height="16" rx="3" fill="#CC2264"/><text x="572.0" y="1190" font-size="10.5" fill="#232F3E">Integration / events</text>
+<rect x="702.0" y="1178" width="16" height="16" rx="3" fill="#3B48CC"/><text x="724.0" y="1190" font-size="10.5" fill="#232F3E">Database</text>
+<rect x="786.8" y="1178" width="16" height="16" rx="3" fill="#7AA116"/><text x="808.8" y="1190" font-size="10.5" fill="#232F3E">Storage</text>
+<rect x="866.0" y="1178" width="16" height="16" rx="3" fill="#8C4FFF"/><text x="888.0" y="1190" font-size="10.5" fill="#232F3E">Networking / API</text>
+<rect x="995.6" y="1178" width="16" height="16" rx="3" fill="#8C4FFF"/><text x="1017.6" y="1190" font-size="10.5" fill="#232F3E">Analytics</text>
+<rect x="1086.0" y="1178" width="16" height="16" rx="3" fill="#5A6B86"/><text x="1108.0" y="1190" font-size="10.5" fill="#232F3E">External system</text>
+<line x1="110" y1="1212" x2="144" y2="1212" stroke="#232F3E" stroke-width="2"/><text x="152" y="1216" font-size="10.5" fill="#232F3E">synchronous</text>
+<line x1="241.6" y1="1212" x2="275.6" y2="1212" stroke="#5A6B86" stroke-width="2" stroke-dasharray="7 5"/><text x="283.6" y="1216" font-size="10.5" fill="#232F3E">async / event</text>
+<line x1="384.4" y1="1212" x2="418.4" y2="1212" stroke="#DD344C" stroke-width="2"/><text x="426.4" y="1216" font-size="10.5" fill="#232F3E">deny / failure</text>
+<line x1="532.8" y1="1212" x2="566.8" y2="1212" stroke="#3F8624" stroke-width="2"/><text x="574.8" y="1216" font-size="10.5" fill="#232F3E">success / write-back</text>
+<rect x="714.8" y="1204" width="46" height="16" fill="none" stroke="#DD344C" stroke-width="2" stroke-dasharray="10 4 2 4"/><text x="768.8" y="1216" font-size="10.5" fill="#232F3E">trust boundary</text>
+<text x="40" y="1238" font-size="11" font-weight="700" fill="#232F3E">FLOW STEPS</text>
+<circle cx="48.0" cy="1246" r="8" fill="#5A6B86"/><text x="48.0" y="1249.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">1</text><text x="62.0" y="1250" font-size="10.5" fill="#232F3E">native events  (AWS collector &gt; Normalizer)</text>
+<circle cx="48.0" cy="1265" r="8" fill="#5A6B86"/><text x="48.0" y="1268.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">2</text><text x="62.0" y="1269" font-size="10.5" fill="#232F3E">native events  (Azure collector &gt; Normalizer)</text>
+<circle cx="48.0" cy="1284" r="8" fill="#5A6B86"/><text x="48.0" y="1287.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">3</text><text x="62.0" y="1288" font-size="10.5" fill="#232F3E">native events  (GCP collector &gt; Normalizer)</text>
+<circle cx="48.0" cy="1303" r="8" fill="#232F3E"/><text x="48.0" y="1306.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">4</text><text x="62.0" y="1307" font-size="10.5" fill="#232F3E">Resource model  (Normalizer &gt; Policy engine)</text>
+<circle cx="48.0" cy="1322" r="8" fill="#232F3E"/><text x="48.0" y="1325.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">5</text><text x="62.0" y="1326" font-size="10.5" fill="#232F3E">standard v1.x  (Standard registry &gt; Policy engine)</text>
+<circle cx="48.0" cy="1341" r="8" fill="#232F3E"/><text x="48.0" y="1344.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">6</text><text x="62.0" y="1345" font-size="10.5" fill="#232F3E">waiver lookup  (Exception service &gt; Policy engine)</text>
+<circle cx="414.6666666666667" cy="1246" r="8" fill="#232F3E"/><text x="414.6666666666667" y="1249.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">7</text><text x="428.6666666666667" y="1250" font-size="10.5" fill="#232F3E">findings  (Policy engine &gt; State store)</text>
+<circle cx="414.6666666666667" cy="1265" r="8" fill="#232F3E"/><text x="414.6666666666667" y="1268.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">8</text><text x="428.6666666666667" y="1269" font-size="10.5" fill="#232F3E">action  (Policy engine &gt; Remediation)</text>
+<circle cx="414.6666666666667" cy="1284" r="8" fill="#3F8624"/><text x="414.6666666666667" y="1287.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">9</text><text x="428.6666666666667" y="1288" font-size="10.5" fill="#232F3E">TagResources  (Remediation &gt; TagWriter role)</text>
+<circle cx="414.6666666666667" cy="1303" r="8" fill="#3F8624"/><text x="414.6666666666667" y="1306.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">10</text><text x="428.6666666666667" y="1307" font-size="10.5" fill="#232F3E">tags merge  (Remediation &gt; Tag Contributor)</text>
+<circle cx="414.6666666666667" cy="1322" r="8" fill="#3F8624"/><text x="414.6666666666667" y="1325.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">11</text><text x="428.6666666666667" y="1326" font-size="10.5" fill="#232F3E">labels.update  (Remediation &gt; Tag admin role)</text>
+<circle cx="414.6666666666667" cy="1341" r="8" fill="#232F3E"/><text x="414.6666666666667" y="1344.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">12</text><text x="428.6666666666667" y="1345" font-size="10.5" fill="#232F3E">query  (State store &gt; Findings API)</text>
+<circle cx="781.3333333333334" cy="1246" r="8" fill="#232F3E"/><text x="781.3333333333334" y="1249.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">13</text><text x="795.3333333333334" y="1250" font-size="10.5" fill="#232F3E">export  (State store &gt; Reporting)</text>
+<circle cx="781.3333333333334" cy="1265" r="8" fill="#232F3E"/><text x="781.3333333333334" y="1268.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">14</text><text x="795.3333333333334" y="1269" font-size="10.5" fill="#232F3E">REST  (Findings API &gt; Dashboard)</text>
+<circle cx="781.3333333333334" cy="1284" r="8" fill="#5A6B86"/><text x="781.3333333333334" y="1287.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">15</text><text x="795.3333333333334" y="1288" font-size="10.5" fill="#232F3E">webhook  (Findings API &gt; ServiceNow)</text>
+<circle cx="781.3333333333334" cy="1303" r="8" fill="#232F3E"/><text x="781.3333333333334" y="1306.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">16</text><text x="795.3333333333334" y="1307" font-size="10.5" fill="#232F3E">dataset  (Reporting &gt; FinOps platform)</text>
+<circle cx="781.3333333333334" cy="1322" r="8" fill="#5A6B86"/><text x="781.3333333333334" y="1325.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">17</text><text x="795.3333333333334" y="1326" font-size="10.5" fill="#232F3E">stream  (State store &gt; SIEM)</text>
+<text x="40" y="1422" font-size="9.5" fill="#8A94A6">Tag Governance Enforcer (multicloud) | Adamson-lab | Diagram 04 v1.1.0 | 2026-11-23 | Author: Favour Adamson | Synthetic placeholders only: no real account IDs.</text></svg>

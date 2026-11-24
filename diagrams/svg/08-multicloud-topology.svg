@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1550 1070" width="1550" height="1070" font-family="'Amazon Ember','Segoe UI',Helvetica,Arial,sans-serif">
+<defs><linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".28"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="1.5" stdDeviation="1.6" flood-opacity=".25"/></filter>
+<marker id="m0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#232F3E"/></marker>
+<marker id="m1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5A6B86"/></marker>
+<marker id="m2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#DD344C"/></marker>
+<marker id="m3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3F8624"/></marker>
+</defs>
+<rect width="1550" height="1070" fill="#fff"/><rect width="1550" height="64" fill="#232F3E"/><rect y="64" width="1550" height="4" fill="#FF9900"/>
+<text x="40" y="41" fill="#fff" font-size="23" font-weight="700">Multicloud topology: what runs where and why</text>
+<text x="1510" y="40" fill="#FF9900" font-size="13" font-weight="700" text-anchor="end">DIAGRAM 08 / 20</text>
+<text x="40" y="96" fill="#232F3E" font-size="14.5">One decision engine, three thin cloud-native edges</text>
+<text x="40" y="118" fill="#5A6B86" font-size="11.5">Audience: Architect / executive  |  Notation: AWS-style topology  |  Scope: All three clouds</text>
+<rect x="40" y="136" width="170" height="470" rx="6" fill="#232F3E" fill-opacity=".04" stroke="#232F3E" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="40" y="136" width="30" height="30" fill="#232F3E"/>
+<text x="55" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">TG</text>
+<text x="78" y="156" fill="#232F3E" font-size="12.5" font-weight="700">Source of truth</text>
+<rect x="300" y="136" width="170" height="620" rx="6" fill="#ED7100" fill-opacity=".04" stroke="#ED7100" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="300" y="136" width="30" height="30" fill="#ED7100"/>
+<text x="315" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">AWS</text>
+<text x="338" y="156" fill="#ED7100" font-size="12.5" font-weight="700">Control plane (hub, AWS)</text>
+<rect x="560" y="136" width="170" height="470" rx="6" fill="#ED7100" fill-opacity=".04" stroke="#ED7100" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="560" y="136" width="30" height="30" fill="#ED7100"/>
+<text x="575" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">AWS</text>
+<text x="598" y="156" fill="#ED7100" font-size="12.5" font-weight="700">AWS edge</text>
+<rect x="820" y="136" width="170" height="470" rx="6" fill="#0078D4" fill-opacity=".04" stroke="#0078D4" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="820" y="136" width="30" height="30" fill="#0078D4"/>
+<text x="835" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">AZ</text>
+<text x="858" y="156" fill="#0078D4" font-size="12.5" font-weight="700">Azure edge</text>
+<rect x="1080" y="136" width="170" height="470" rx="6" fill="#1A73E8" fill-opacity=".04" stroke="#1A73E8" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="1080" y="136" width="30" height="30" fill="#1A73E8"/>
+<text x="1095" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">GCP</text>
+<text x="1118" y="156" fill="#1A73E8" font-size="12.5" font-weight="700">GCP edge</text>
+<rect x="1340" y="136" width="170" height="470" rx="6" fill="#7D8998" fill-opacity=".04" stroke="#7D8998" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="1340" y="136" width="30" height="30" fill="#7D8998"/>
+<text x="1378" y="156" fill="#7D8998" font-size="12.5" font-weight="700">Integrations</text>
+<path d="M125.0,286.0 L125.0,332.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M125.0,436.0 L125.0,482.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M148.0,495.0 L288.0,495.0 Q295.0,495.0 295.0,488.0 L295.0,222.0 Q295.0,215.0 302.0,215.0 L362.0,215.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M148.0,345.0 L278.0,345.0 Q285.0,345.0 285.0,338.0 L285.0,312.0 Q285.0,305.0 292.0,305.0 L628.0,305.0 Q635.0,305.0 635.0,298.0 L635.0,286.0" fill="none" stroke="#3F8624" stroke-width="1.8" marker-end="url(#m3)"/>
+<path d="M135.0,332.0 L135.0,322.0 Q135.0,315.0 142.0,315.0 L888.0,315.0 Q895.0,315.0 895.0,308.0 L895.0,286.0" fill="none" stroke="#3F8624" stroke-width="1.8" marker-end="url(#m3)"/>
+<path d="M135.0,436.0 L135.0,448.0 Q135.0,455.0 142.0,455.0 L1068.0,455.0 Q1075.0,455.0 1075.0,448.0 L1075.0,222.0 Q1075.0,215.0 1082.0,215.0 L1142.0,215.0" fill="none" stroke="#3F8624" stroke-width="1.8" marker-end="url(#m3)"/>
+<path d="M622.0,345.0 L472.0,345.0 Q465.0,345.0 465.0,338.0 L465.0,222.0 Q465.0,215.0 458.0,215.0 L408.0,215.0" fill="none" stroke="#5A6B86" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#m1)"/>
+<path d="M895.0,436.0 L895.0,458.0 Q895.0,465.0 888.0,465.0 L492.0,465.0 Q485.0,465.0 485.0,458.0 L485.0,212.0 Q485.0,205.0 478.0,205.0 L408.0,205.0" fill="none" stroke="#5A6B86" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#m1)"/>
+<path d="M1142.0,345.0 L992.0,345.0 Q985.0,345.0 985.0,338.0 L985.0,312.0 Q985.0,305.0 978.0,305.0 L650.0,305.0 Q645.0,305.0 645.0,300.0 L645.0,300.0 Q645.0,295.0 640.0,295.0 L502.0,295.0 Q495.0,295.0 495.0,288.0 L495.0,202.0 Q495.0,195.0 488.0,195.0 L408.0,195.0" fill="none" stroke="#5A6B86" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#m1)"/>
+<path d="M385.0,286.0 L385.0,332.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M408.0,365.0 L458.0,365.0 Q465.0,365.0 465.0,372.0 L465.0,488.0 Q465.0,495.0 472.0,495.0 L622.0,495.0" fill="none" stroke="#3F8624" stroke-width="1.8" marker-end="url(#m3)"/>
+<path d="M408.0,355.0 L548.0,355.0 Q555.0,355.0 555.0,362.0 L555.0,608.0 Q555.0,615.0 562.0,615.0 L888.0,615.0 Q895.0,615.0 895.0,608.0 L895.0,586.0" fill="none" stroke="#3F8624" stroke-width="1.8" marker-end="url(#m3)"/>
+<path d="M408.0,365.0 L538.0,365.0 Q545.0,365.0 545.0,372.0 L545.0,618.0 Q545.0,625.0 552.0,625.0 L1148.0,625.0 Q1155.0,625.0 1155.0,618.0 L1155.0,586.0" fill="none" stroke="#3F8624" stroke-width="1.8" marker-end="url(#m3)"/>
+<path d="M362.0,205.0 L282.0,205.0 Q275.0,205.0 275.0,212.0 L275.0,498.0 Q275.0,505.0 282.0,505.0 L362.0,505.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M385.0,586.0 L385.0,632.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M395.0,436.0 L395.0,458.0 Q395.0,465.0 402.0,465.0 L478.0,465.0 Q485.0,465.0 485.0,472.0 L485.0,628.0 Q485.0,635.0 492.0,635.0 L1328.0,635.0 Q1335.0,635.0 1335.0,628.0 L1335.0,222.0 Q1335.0,215.0 1342.0,215.0 L1402.0,215.0" fill="none" stroke="#5A6B86" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#m1)"/>
+<path d="M408.0,645.0 L1318.0,645.0 Q1325.0,645.0 1325.0,638.0 L1325.0,372.0 Q1325.0,365.0 1332.0,365.0 L1402.0,365.0" fill="none" stroke="#5A6B86" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#m1)"/>
+<path d="M408.0,515.0 L458.0,515.0 Q465.0,515.0 465.0,522.0 L465.0,648.0 Q465.0,655.0 472.0,655.0 L1408.0,655.0 Q1415.0,655.0 1415.0,648.0 L1415.0,586.0" fill="none" stroke="#5A6B86" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#m1)"/>
+<g filter="url(#sh)"><rect x="102.0" y="182" width="46" height="46" rx="7" fill="#E7157B"/><rect x="102.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">GIT</text>
+<text x="125.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Git repo</text>
+<text x="125.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">tag-standard.json</text>
+<g filter="url(#sh)"><rect x="102.0" y="332" width="46" height="46" rx="7" fill="#ED7100"/><rect x="102.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">CI</text>
+<text x="125.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">CI pipeline</text>
+<text x="125.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">OIDC to each cloud</text>
+<g filter="url(#sh)"><rect x="102.0" y="482" width="46" height="46" rx="7" fill="#7AA116"/><rect x="102.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">REG</text>
+<text x="125.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Standard registry</text>
+<text x="125.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">signed release</text>
+<g filter="url(#sh)"><rect x="362.0" y="182" width="46" height="46" rx="7" fill="#ED7100"/><rect x="362.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="385.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">FN</text>
+<text x="385.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Policy engine</text>
+<text x="385.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">neutral Python</text>
+<g filter="url(#sh)"><rect x="362.0" y="332" width="46" height="46" rx="7" fill="#CC2264"/><rect x="362.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="385.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SFN</text>
+<text x="385.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Remediation</text>
+<text x="385.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">workflow</text>
+<g filter="url(#sh)"><rect x="362.0" y="482" width="46" height="46" rx="7" fill="#3B48CC"/><rect x="362.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="385.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">DDB</text>
+<text x="385.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">State</text>
+<text x="385.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">DynamoDB</text>
+<g filter="url(#sh)"><rect x="362.0" y="632" width="46" height="46" rx="7" fill="#8C4FFF"/><rect x="362.0" y="632" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="385.0" y="660.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">ATH</text>
+<text x="385.0" y="694" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Reporting</text>
+<text x="385.0" y="707" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">Athena</text>
+<g filter="url(#sh)"><rect x="622.0" y="182" width="46" height="46" rx="7" fill="#DD344C"/><rect x="622.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="645.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SCP</text>
+<text x="645.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Tag policy + SCP</text>
+<text x="645.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">prevent</text>
+<g filter="url(#sh)"><rect x="622.0" y="332" width="46" height="46" rx="7" fill="#E7157B"/><rect x="622.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="645.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">CFG</text>
+<text x="645.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Config + EventBridge</text>
+<text x="645.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">detect</text>
+<g filter="url(#sh)"><rect x="622.0" y="482" width="46" height="46" rx="7" fill="#DD344C"/><rect x="622.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="645.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">IAM</text>
+<text x="645.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">TagWriter role</text>
+<text x="645.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">correct</text>
+<g filter="url(#sh)"><rect x="882.0" y="182" width="46" height="46" rx="7" fill="#DD344C"/><rect x="882.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="905.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">POL</text>
+<text x="905.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Azure Policy</text>
+<text x="905.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">prevent</text>
+<g filter="url(#sh)"><rect x="882.0" y="332" width="46" height="46" rx="7" fill="#CC2264"/><rect x="882.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="905.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">EG</text>
+<text x="905.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Event Grid + Graph</text>
+<text x="905.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">detect</text>
+<g filter="url(#sh)"><rect x="882.0" y="482" width="46" height="46" rx="7" fill="#DD344C"/><rect x="882.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="905.0" y="510.0" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">RBAC</text>
+<text x="905.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Tag Contributor</text>
+<text x="905.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">correct</text>
+<g filter="url(#sh)"><rect x="1142.0" y="182" width="46" height="46" rx="7" fill="#DD344C"/><rect x="1142.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1165.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">OP</text>
+<text x="1165.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Org Policy + tags</text>
+<text x="1165.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">prevent</text>
+<g filter="url(#sh)"><rect x="1142.0" y="332" width="46" height="46" rx="7" fill="#E7157B"/><rect x="1142.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1165.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">CAI</text>
+<text x="1165.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Asset feed</text>
+<text x="1165.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">detect</text>
+<g filter="url(#sh)"><rect x="1142.0" y="482" width="46" height="46" rx="7" fill="#DD344C"/><rect x="1142.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1165.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SA</text>
+<text x="1165.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Tag admin SA</text>
+<text x="1165.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">correct</text>
+<g filter="url(#sh)"><rect x="1402.0" y="182" width="46" height="46" rx="7" fill="#5A6B86"/><rect x="1402.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1425.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SN</text>
+<text x="1425.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">ServiceNow</text>
+<g filter="url(#sh)"><rect x="1402.0" y="332" width="46" height="46" rx="7" fill="#5A6B86"/><rect x="1402.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1425.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">FO</text>
+<text x="1425.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">FinOps platform</text>
+<g filter="url(#sh)"><rect x="1402.0" y="482" width="46" height="46" rx="7" fill="#5A6B86"/><rect x="1402.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="1425.0" y="510.0" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">SIEM</text>
+<text x="1425.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">SIEM</text>
+<circle cx="125.0" cy="306.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="125.0" y="309.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">1</text>
+<circle cx="125.0" cy="456.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="125.0" y="459.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">2</text>
+<circle cx="295.0" cy="395.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="295.0" y="398.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">3</text>
+<circle cx="380.0" cy="305.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="380.0" y="308.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">4</text>
+<circle cx="520.0" cy="315.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="520.0" y="318.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">5</text>
+<circle cx="750.0" cy="455.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="750.0" y="458.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">6</text>
+<circle cx="465.0" cy="315.0" r="9" fill="#5A6B86" stroke="#fff" stroke-width="1.5"/><text x="465.0" y="318.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">7</text>
+<circle cx="535.0" cy="465.0" r="9" fill="#5A6B86" stroke="#fff" stroke-width="1.5"/><text x="535.0" y="468.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">8</text>
+<circle cx="740.0" cy="305.0" r="9" fill="#5A6B86" stroke="#fff" stroke-width="1.5"/><text x="740.0" y="308.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">9</text>
+<circle cx="385.0" cy="331.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="385.0" y="334.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">10</text>
+<circle cx="465.0" cy="465.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="465.0" y="468.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">11</text>
+<circle cx="555.0" cy="595.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="555.0" y="598.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">12</text>
+<circle cx="670.0" cy="625.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="670.0" y="628.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">13</text>
+<circle cx="275.0" cy="355.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="275.0" y="358.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">14</text>
+<circle cx="385.0" cy="606.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="385.0" y="609.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">15</text>
+<circle cx="1010.0" cy="635.0" r="9" fill="#5A6B86" stroke="#fff" stroke-width="1.5"/><text x="1010.0" y="638.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">16</text>
+<circle cx="1043.0" cy="645.0" r="9" fill="#5A6B86" stroke="#fff" stroke-width="1.5"/><text x="1043.0" y="648.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">17</text>
+<circle cx="875.0" cy="655.0" r="9" fill="#5A6B86" stroke="#fff" stroke-width="1.5"/><text x="875.0" y="658.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">18</text>
+<line x1="40" y1="810" x2="1510" y2="810" stroke="#D5DBDB"/><text x="40" y="830" fill="#232F3E" font-size="11" font-weight="700">LEGEND</text>
+<rect x="110" y="818" width="16" height="16" rx="3" fill="#E7157B"/><text x="132" y="830" font-size="10.5" fill="#232F3E">Management &amp; governance</text>
+<rect x="278.79999999999995" y="818" width="16" height="16" rx="3" fill="#ED7100"/><text x="300.79999999999995" y="830" font-size="10.5" fill="#232F3E">Compute</text>
+<rect x="357.99999999999994" y="818" width="16" height="16" rx="3" fill="#7AA116"/><text x="379.99999999999994" y="830" font-size="10.5" fill="#232F3E">Storage</text>
+<rect x="437.19999999999993" y="818" width="16" height="16" rx="3" fill="#CC2264"/><text x="459.19999999999993" y="830" font-size="10.5" fill="#232F3E">Integration / events</text>
+<rect x="589.1999999999999" y="818" width="16" height="16" rx="3" fill="#3B48CC"/><text x="611.1999999999999" y="830" font-size="10.5" fill="#232F3E">Database</text>
+<rect x="673.9999999999999" y="818" width="16" height="16" rx="3" fill="#8C4FFF"/><text x="695.9999999999999" y="830" font-size="10.5" fill="#232F3E">Analytics</text>
+<rect x="764.3999999999999" y="818" width="16" height="16" rx="3" fill="#DD344C"/><text x="786.3999999999999" y="830" font-size="10.5" fill="#232F3E">Security / identity</text>
+<rect x="910.7999999999998" y="818" width="16" height="16" rx="3" fill="#5A6B86"/><text x="932.7999999999998" y="830" font-size="10.5" fill="#232F3E">External system</text>
+<line x1="110" y1="852" x2="144" y2="852" stroke="#232F3E" stroke-width="2"/><text x="152" y="856" font-size="10.5" fill="#232F3E">synchronous</text>
+<line x1="241.6" y1="852" x2="275.6" y2="852" stroke="#5A6B86" stroke-width="2" stroke-dasharray="7 5"/><text x="283.6" y="856" font-size="10.5" fill="#232F3E">async / event</text>
+<line x1="384.4" y1="852" x2="418.4" y2="852" stroke="#DD344C" stroke-width="2"/><text x="426.4" y="856" font-size="10.5" fill="#232F3E">deny / failure</text>
+<line x1="532.8" y1="852" x2="566.8" y2="852" stroke="#3F8624" stroke-width="2"/><text x="574.8" y="856" font-size="10.5" fill="#232F3E">success / write-back</text>
+<rect x="714.8" y="844" width="46" height="16" fill="none" stroke="#DD344C" stroke-width="2" stroke-dasharray="10 4 2 4"/><text x="768.8" y="856" font-size="10.5" fill="#232F3E">trust boundary</text>
+<text x="40" y="878" font-size="11" font-weight="700" fill="#232F3E">FLOW STEPS</text>
+<circle cx="48.0" cy="886" r="8" fill="#232F3E"/><text x="48.0" y="889.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">1</text><text x="62.0" y="890" font-size="10.5" fill="#232F3E">merge to main  (Git repo &gt; CI pipeline)</text>
+<circle cx="48.0" cy="905" r="8" fill="#232F3E"/><text x="48.0" y="908.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">2</text><text x="62.0" y="909" font-size="10.5" fill="#232F3E">sign + publish  (CI pipeline &gt; Standard registry)</text>
+<circle cx="48.0" cy="924" r="8" fill="#232F3E"/><text x="48.0" y="927.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">3</text><text x="62.0" y="928" font-size="10.5" fill="#232F3E">pull standard  (Standard registry &gt; Policy engine)</text>
+<circle cx="48.0" cy="943" r="8" fill="#3F8624"/><text x="48.0" y="946.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">4</text><text x="62.0" y="947" font-size="10.5" fill="#232F3E">terraform apply  (CI pipeline &gt; Tag policy + SCP)</text>
+<circle cx="48.0" cy="962" r="8" fill="#3F8624"/><text x="48.0" y="965.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">5</text><text x="62.0" y="966" font-size="10.5" fill="#232F3E">terraform apply  (CI pipeline &gt; Azure Policy)</text>
+<circle cx="48.0" cy="981" r="8" fill="#3F8624"/><text x="48.0" y="984.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">6</text><text x="62.0" y="985" font-size="10.5" fill="#232F3E">terraform apply  (CI pipeline &gt; Org Policy + tags)</text>
+<circle cx="538.0" cy="886" r="8" fill="#5A6B86"/><text x="538.0" y="889.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">7</text><text x="552.0" y="890" font-size="10.5" fill="#232F3E">events  (Config + EventBridge &gt; Policy engine)</text>
+<circle cx="538.0" cy="905" r="8" fill="#5A6B86"/><text x="538.0" y="908.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">8</text><text x="552.0" y="909" font-size="10.5" fill="#232F3E">events  (Event Grid + Graph &gt; Policy engine)</text>
+<circle cx="538.0" cy="924" r="8" fill="#5A6B86"/><text x="538.0" y="927.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">9</text><text x="552.0" y="928" font-size="10.5" fill="#232F3E">events  (Asset feed &gt; Policy engine)</text>
+<circle cx="538.0" cy="943" r="8" fill="#232F3E"/><text x="538.0" y="946.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">10</text><text x="552.0" y="947" font-size="10.5" fill="#232F3E">decision  (Policy engine &gt; Remediation)</text>
+<circle cx="538.0" cy="962" r="8" fill="#3F8624"/><text x="538.0" y="965.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">11</text><text x="552.0" y="966" font-size="10.5" fill="#232F3E">fix  (Remediation &gt; TagWriter role)</text>
+<circle cx="538.0" cy="981" r="8" fill="#3F8624"/><text x="538.0" y="984.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">12</text><text x="552.0" y="985" font-size="10.5" fill="#232F3E">fix  (Remediation &gt; Tag Contributor)</text>
+<circle cx="1028.0" cy="886" r="8" fill="#3F8624"/><text x="1028.0" y="889.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">13</text><text x="1042.0" y="890" font-size="10.5" fill="#232F3E">fix  (Remediation &gt; Tag admin SA)</text>
+<circle cx="1028.0" cy="905" r="8" fill="#232F3E"/><text x="1028.0" y="908.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">14</text><text x="1042.0" y="909" font-size="10.5" fill="#232F3E">write  (Policy engine &gt; State)</text>
+<circle cx="1028.0" cy="924" r="8" fill="#232F3E"/><text x="1028.0" y="927.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">15</text><text x="1042.0" y="928" font-size="10.5" fill="#232F3E">export  (State &gt; Reporting)</text>
+<circle cx="1028.0" cy="943" r="8" fill="#5A6B86"/><text x="1028.0" y="946.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">16</text><text x="1042.0" y="947" font-size="10.5" fill="#232F3E">ticket  (Remediation &gt; ServiceNow)</text>
+<circle cx="1028.0" cy="962" r="8" fill="#5A6B86"/><text x="1028.0" y="965.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">17</text><text x="1042.0" y="966" font-size="10.5" fill="#232F3E">dataset  (Reporting &gt; FinOps platform)</text>
+<circle cx="1028.0" cy="981" r="8" fill="#5A6B86"/><text x="1028.0" y="984.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">18</text><text x="1042.0" y="985" font-size="10.5" fill="#232F3E">findings  (State &gt; SIEM)</text>
+<text x="40" y="1036" font-size="10.5" fill="#232F3E"><tspan font-weight="700">Note:</tspan> Why AWS hosts the hub: lowest-friction event bus and workflow primitives for this team; the engine is provider-neutral so the hub can move (ADR-0004).</text>
+<text x="40" y="1062" font-size="9.5" fill="#8A94A6">Tag Governance Enforcer (multicloud) | Adamson-lab | Diagram 08 v1.1.0 | 2026-11-23 | Author: Favour Adamson | Synthetic placeholders only: no real account IDs.</text></svg>

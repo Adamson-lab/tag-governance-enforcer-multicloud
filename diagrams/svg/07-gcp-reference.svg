@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 1561" width="1180" height="1561" font-family="'Amazon Ember','Segoe UI',Helvetica,Arial,sans-serif">
+<defs><linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".28"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="1.5" stdDeviation="1.6" flood-opacity=".25"/></filter>
+<marker id="m0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#232F3E"/></marker>
+<marker id="m1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5A6B86"/></marker>
+<marker id="m2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#DD344C"/></marker>
+<marker id="m3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3F8624"/></marker>
+</defs>
+<rect width="1180" height="1561" fill="#fff"/><rect width="1180" height="64" fill="#232F3E"/><rect y="64" width="1180" height="4" fill="#FF9900"/>
+<text x="40" y="41" fill="#fff" font-size="23" font-weight="700">GCP reference architecture (live deployment)</text>
+<text x="1140" y="40" fill="#FF9900" font-size="13" font-weight="700" text-anchor="end">DIAGRAM 07 / 20</text>
+<text x="40" y="96" fill="#232F3E" font-size="14.5">Organization policy and tag bindings, Cloud Asset feeds, Workflows remediation</text>
+<text x="40" y="118" fill="#5A6B86" font-size="11.5">Audience: Engineer / auditor  |  Notation: GCP-style on AWS notation  |  Scope: GCP organization</text>
+<rect x="40" y="136" width="170" height="620" rx="6" fill="#1A73E8" fill-opacity=".04" stroke="#1A73E8" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="40" y="136" width="30" height="30" fill="#1A73E8"/>
+<text x="55" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">GCP</text>
+<text x="78" y="156" fill="#1A73E8" font-size="12.5" font-weight="700">Organization and folders</text>
+<rect x="40" y="796" width="170" height="470" rx="6" fill="#1A73E8" fill-opacity=".04" stroke="#1A73E8" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="40" y="796" width="30" height="30" fill="#1A73E8"/>
+<text x="55" y="815" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">GCP</text>
+<text x="78" y="816" fill="#1A73E8" font-size="12.5" font-weight="700">Workload projects</text>
+<rect x="300" y="136" width="350" height="620" rx="6" fill="#1A73E8" fill-opacity=".04" stroke="#1A73E8" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="300" y="136" width="30" height="30" fill="#1A73E8"/>
+<text x="315" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">GCP</text>
+<text x="338" y="156" fill="#1A73E8" font-size="12.5" font-weight="700">Governance project: enforcer hub</text>
+<rect x="740" y="136" width="170" height="470" rx="6" fill="#1A73E8" fill-opacity=".04" stroke="#1A73E8" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="740" y="136" width="30" height="30" fill="#1A73E8"/>
+<text x="755" y="155" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">GCP</text>
+<text x="778" y="156" fill="#1A73E8" font-size="12.5" font-weight="700">Operate and assure</text>
+<path d="M125.0,332.0 L125.0,286.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M125.0,736.0 L125.0,842.0" fill="none" stroke="#DD344C" stroke-width="1.8" marker-end="url(#m2)"/>
+<path d="M102.0,515.0 L42.0,515.0 Q35.0,515.0 35.0,522.0 L35.0,848.0 Q35.0,855.0 42.0,855.0 L102.0,855.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M125.0,946.0 L125.0,992.0" fill="none" stroke="#5A6B86" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#m1)"/>
+<path d="M148.0,1005.0 L288.0,1005.0 Q295.0,1005.0 295.0,998.0 L295.0,222.0 Q295.0,215.0 302.0,215.0 L362.0,215.0" fill="none" stroke="#5A6B86" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#m1)"/>
+<path d="M408.0,205.0 L542.0,205.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M588.0,215.0 L638.0,215.0 Q645.0,215.0 645.0,222.0 L645.0,638.0 Q645.0,645.0 638.0,645.0 L588.0,645.0" fill="none" stroke="#5A6B86" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#m1)"/>
+<path d="M565.0,286.0 L565.0,332.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M542.0,215.0 L472.0,215.0 Q465.0,215.0 465.0,222.0 L465.0,338.0 Q465.0,345.0 458.0,345.0 L408.0,345.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M408.0,365.0 L478.0,365.0 Q485.0,365.0 485.0,372.0 L485.0,488.0 Q485.0,495.0 492.0,495.0 L542.0,495.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M542.0,515.0 L472.0,515.0 Q465.0,515.0 465.0,522.0 L465.0,848.0 Q465.0,855.0 458.0,855.0 L148.0,855.0" fill="none" stroke="#3F8624" stroke-width="1.8" marker-end="url(#m3)"/>
+<path d="M555.0,286.0 L555.0,308.0 Q555.0,315.0 548.0,315.0 L482.0,315.0 Q475.0,315.0 475.0,322.0 L475.0,638.0 Q475.0,645.0 468.0,645.0 L408.0,645.0" fill="none" stroke="#232F3E" stroke-width="1.8" marker-end="url(#m0)"/>
+<path d="M148.0,1155.0 L808.0,1155.0 Q815.0,1155.0 815.0,1148.0 L815.0,586.0" fill="none" stroke="#5A6B86" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#m1)"/>
+<path d="M588.0,205.0 L728.0,205.0 Q735.0,205.0 735.0,212.0 L735.0,338.0 Q735.0,345.0 742.0,345.0 L802.0,345.0" fill="none" stroke="#5A6B86" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#m1)"/>
+<path d="M825.0,286.0 L825.0,332.0" fill="none" stroke="#5A6B86" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#m1)"/>
+<g filter="url(#sh)"><rect x="102.0" y="182" width="46" height="46" rx="7" fill="#1A73E8"/><rect x="102.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">ORG</text>
+<text x="125.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Organization</text>
+<text x="125.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">hierarchy</text>
+<g filter="url(#sh)"><rect x="102.0" y="332" width="46" height="46" rx="7" fill="#1A73E8"/><rect x="102.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">FLD</text>
+<text x="125.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Folders</text>
+<text x="125.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">prod / nonprod / sbx</text>
+<g filter="url(#sh)"><rect x="102.0" y="482" width="46" height="46" rx="7" fill="#DD344C"/><rect x="102.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">TAG</text>
+<text x="125.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Resource Manager tags</text>
+<text x="125.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">keys + values</text>
+<g filter="url(#sh)"><rect x="102.0" y="632" width="46" height="46" rx="7" fill="#DD344C"/><rect x="102.0" y="632" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="660.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">OP</text>
+<text x="125.0" y="694" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Org Policy</text>
+<text x="125.0" y="707" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">custom constraints</text>
+<g filter="url(#sh)"><rect x="102.0" y="842" width="46" height="46" rx="7" fill="#ED7100"/><rect x="102.0" y="842" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="870.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">GCE</text>
+<text x="125.0" y="904" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Labeled resources</text>
+<text x="125.0" y="917" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">GCE GCS BQ GKE</text>
+<g filter="url(#sh)"><rect x="102.0" y="992" width="46" height="46" rx="7" fill="#E7157B"/><rect x="102.0" y="992" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="1020.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">CAI</text>
+<text x="125.0" y="1054" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Cloud Asset Inventory</text>
+<text x="125.0" y="1067" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">org feed</text>
+<g filter="url(#sh)"><rect x="102.0" y="1142" width="46" height="46" rx="7" fill="#E7157B"/><rect x="102.0" y="1142" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="125.0" y="1170.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">LOG</text>
+<text x="125.0" y="1204" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Audit logs</text>
+<text x="125.0" y="1217" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">Admin Activity</text>
+<g filter="url(#sh)"><rect x="362.0" y="182" width="46" height="46" rx="7" fill="#CC2264"/><rect x="362.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="385.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">PS</text>
+<text x="385.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Asset feed topic</text>
+<text x="385.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">Pub/Sub</text>
+<g filter="url(#sh)"><rect x="542.0" y="182" width="46" height="46" rx="7" fill="#ED7100"/><rect x="542.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="565.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">CF</text>
+<text x="565.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Evaluator</text>
+<text x="565.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">Cloud Functions</text>
+<g filter="url(#sh)"><rect x="362.0" y="332" width="46" height="46" rx="7" fill="#CC2264"/><rect x="362.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="385.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">WF</text>
+<text x="385.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Remediation</text>
+<text x="385.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">Workflows</text>
+<g filter="url(#sh)"><rect x="542.0" y="332" width="46" height="46" rx="7" fill="#3B48CC"/><rect x="542.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="565.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">FS</text>
+<text x="565.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Findings</text>
+<text x="565.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">Firestore</text>
+<g filter="url(#sh)"><rect x="362.0" y="482" width="46" height="46" rx="7" fill="#DD344C"/><rect x="362.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="385.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SM</text>
+<text x="385.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Secrets</text>
+<text x="385.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">Secret Manager</text>
+<g filter="url(#sh)"><rect x="542.0" y="482" width="46" height="46" rx="7" fill="#DD344C"/><rect x="542.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="565.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SA</text>
+<text x="565.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Service accounts</text>
+<text x="565.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">WIF, no keys</text>
+<g filter="url(#sh)"><rect x="362.0" y="632" width="46" height="46" rx="7" fill="#8C4FFF"/><rect x="362.0" y="632" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="385.0" y="660.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">BQ</text>
+<text x="385.0" y="694" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Analytics</text>
+<text x="385.0" y="707" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">BigQuery + billing</text>
+<g filter="url(#sh)"><rect x="542.0" y="632" width="46" height="46" rx="7" fill="#CC2264"/><rect x="542.0" y="632" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="565.0" y="660.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">DLQ</text>
+<text x="565.0" y="694" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Dead letter</text>
+<text x="565.0" y="707" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">Pub/Sub</text>
+<g filter="url(#sh)"><rect x="802.0" y="182" width="46" height="46" rx="7" fill="#DD344C"/><rect x="802.0" y="182" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="825.0" y="210.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">SCC</text>
+<text x="825.0" y="244" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Security Command Ctr</text>
+<text x="825.0" y="257" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">findings</text>
+<g filter="url(#sh)"><rect x="802.0" y="332" width="46" height="46" rx="7" fill="#E7157B"/><rect x="802.0" y="332" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="825.0" y="360.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">MON</text>
+<text x="825.0" y="394" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Cloud Monitoring</text>
+<text x="825.0" y="407" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">SLO alerts</text>
+<g filter="url(#sh)"><rect x="802.0" y="482" width="46" height="46" rx="7" fill="#E7157B"/><rect x="802.0" y="482" width="46" height="46" rx="7" fill="url(#sheen)"/></g>
+<text x="825.0" y="510.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">LS</text>
+<text x="825.0" y="544" fill="#232F3E" font-size="11.5" font-weight="600" text-anchor="middle">Log sink</text>
+<text x="825.0" y="557" fill="#5A6B86" font-size="10" font-weight="400" text-anchor="middle">to SIEM</text>
+<circle cx="125.0" cy="307.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="125.0" y="310.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">1</text>
+<circle cx="125.0" cy="791.0" r="9" fill="#DD344C" stroke="#fff" stroke-width="1.5"/><text x="125.0" y="794.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">2</text>
+<circle cx="35.0" cy="685.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="35.0" y="688.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">3</text>
+<circle cx="125.0" cy="966.0" r="9" fill="#5A6B86" stroke="#fff" stroke-width="1.5"/><text x="125.0" y="969.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">4</text>
+<circle cx="295.0" cy="650.0" r="9" fill="#5A6B86" stroke="#fff" stroke-width="1.5"/><text x="295.0" y="653.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">5</text>
+<circle cx="473.0" cy="205.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="473.0" y="208.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">6</text>
+<circle cx="645.0" cy="450.0" r="9" fill="#5A6B86" stroke="#fff" stroke-width="1.5"/><text x="645.0" y="453.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">7</text>
+<circle cx="565.0" cy="306.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="565.0" y="309.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">8</text>
+<circle cx="465.0" cy="300.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="465.0" y="303.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">9</text>
+<circle cx="485.0" cy="450.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="485.0" y="453.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">10</text>
+<circle cx="465.0" cy="805.0" r="9" fill="#3F8624" stroke="#fff" stroke-width="1.5"/><text x="465.0" y="808.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">11</text>
+<circle cx="475.0" cy="480.0" r="9" fill="#232F3E" stroke="#fff" stroke-width="1.5"/><text x="475.0" y="483.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">12</text>
+<circle cx="768.0" cy="1155.0" r="9" fill="#5A6B86" stroke="#fff" stroke-width="1.5"/><text x="768.0" y="1158.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">13</text>
+<circle cx="735.0" cy="235.0" r="9" fill="#5A6B86" stroke="#fff" stroke-width="1.5"/><text x="735.0" y="238.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">14</text>
+<circle cx="825.0" cy="306.0" r="9" fill="#5A6B86" stroke="#fff" stroke-width="1.5"/><text x="825.0" y="309.6" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">15</text>
+<line x1="40" y1="1320" x2="1140" y2="1320" stroke="#D5DBDB"/><text x="40" y="1340" fill="#232F3E" font-size="11" font-weight="700">LEGEND</text>
+<rect x="110" y="1328" width="16" height="16" rx="3" fill="#1A73E8"/><text x="132" y="1340" font-size="10.5" fill="#232F3E">GCP service</text>
+<rect x="211.6" y="1328" width="16" height="16" rx="3" fill="#DD344C"/><text x="233.6" y="1340" font-size="10.5" fill="#232F3E">Security / identity</text>
+<rect x="358.0" y="1328" width="16" height="16" rx="3" fill="#ED7100"/><text x="380.0" y="1340" font-size="10.5" fill="#232F3E">Compute</text>
+<rect x="437.2" y="1328" width="16" height="16" rx="3" fill="#E7157B"/><text x="459.2" y="1340" font-size="10.5" fill="#232F3E">Management &amp; governance</text>
+<rect x="606.0" y="1328" width="16" height="16" rx="3" fill="#CC2264"/><text x="628.0" y="1340" font-size="10.5" fill="#232F3E">Integration / events</text>
+<rect x="758.0" y="1328" width="16" height="16" rx="3" fill="#3B48CC"/><text x="780.0" y="1340" font-size="10.5" fill="#232F3E">Database</text>
+<rect x="842.8" y="1328" width="16" height="16" rx="3" fill="#8C4FFF"/><text x="864.8" y="1340" font-size="10.5" fill="#232F3E">Analytics</text>
+<line x1="110" y1="1362" x2="144" y2="1362" stroke="#232F3E" stroke-width="2"/><text x="152" y="1366" font-size="10.5" fill="#232F3E">synchronous</text>
+<line x1="241.6" y1="1362" x2="275.6" y2="1362" stroke="#5A6B86" stroke-width="2" stroke-dasharray="7 5"/><text x="283.6" y="1366" font-size="10.5" fill="#232F3E">async / event</text>
+<line x1="384.4" y1="1362" x2="418.4" y2="1362" stroke="#DD344C" stroke-width="2"/><text x="426.4" y="1366" font-size="10.5" fill="#232F3E">deny / failure</text>
+<line x1="532.8" y1="1362" x2="566.8" y2="1362" stroke="#3F8624" stroke-width="2"/><text x="574.8" y="1366" font-size="10.5" fill="#232F3E">success / write-back</text>
+<rect x="714.8" y="1354" width="46" height="16" fill="none" stroke="#DD344C" stroke-width="2" stroke-dasharray="10 4 2 4"/><text x="768.8" y="1366" font-size="10.5" fill="#232F3E">trust boundary</text>
+<text x="40" y="1388" font-size="11" font-weight="700" fill="#232F3E">FLOW STEPS</text>
+<circle cx="48.0" cy="1396" r="8" fill="#232F3E"/><text x="48.0" y="1399.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">1</text><text x="62.0" y="1400" font-size="10.5" fill="#232F3E">inherit  (Folders &gt; Organization)</text>
+<circle cx="48.0" cy="1415" r="8" fill="#DD344C"/><text x="48.0" y="1418.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">2</text><text x="62.0" y="1419" font-size="10.5" fill="#232F3E">deny where supported  (Org Policy &gt; Labeled resources)</text>
+<circle cx="48.0" cy="1434" r="8" fill="#232F3E"/><text x="48.0" y="1437.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">3</text><text x="62.0" y="1438" font-size="10.5" fill="#232F3E">tag bindings  (Resource Manager tags &gt; Labeled resources)</text>
+<circle cx="48.0" cy="1453" r="8" fill="#5A6B86"/><text x="48.0" y="1456.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">4</text><text x="62.0" y="1457" font-size="10.5" fill="#232F3E">asset changes  (Labeled resources &gt; Cloud Asset Inventory)</text>
+<circle cx="48.0" cy="1472" r="8" fill="#5A6B86"/><text x="48.0" y="1475.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">5</text><text x="62.0" y="1476" font-size="10.5" fill="#232F3E">feed  (Cloud Asset Inventory &gt; Asset feed topic)</text>
+<circle cx="414.6666666666667" cy="1396" r="8" fill="#232F3E"/><text x="414.6666666666667" y="1399.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">6</text><text x="428.6666666666667" y="1400" font-size="10.5" fill="#232F3E">push  (Asset feed topic &gt; Evaluator)</text>
+<circle cx="414.6666666666667" cy="1415" r="8" fill="#5A6B86"/><text x="414.6666666666667" y="1418.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">7</text><text x="428.6666666666667" y="1419" font-size="10.5" fill="#232F3E">poison msgs  (Evaluator &gt; Dead letter)</text>
+<circle cx="414.6666666666667" cy="1434" r="8" fill="#232F3E"/><text x="414.6666666666667" y="1437.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">8</text><text x="428.6666666666667" y="1438" font-size="10.5" fill="#232F3E">upsert  (Evaluator &gt; Findings)</text>
+<circle cx="414.6666666666667" cy="1453" r="8" fill="#232F3E"/><text x="414.6666666666667" y="1456.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">9</text><text x="428.6666666666667" y="1457" font-size="10.5" fill="#232F3E">start  (Evaluator &gt; Remediation)</text>
+<circle cx="414.6666666666667" cy="1472" r="8" fill="#232F3E"/><text x="414.6666666666667" y="1475.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">10</text><text x="428.6666666666667" y="1476" font-size="10.5" fill="#232F3E">impersonate  (Remediation &gt; Service accounts)</text>
+<circle cx="781.3333333333334" cy="1396" r="8" fill="#3F8624"/><text x="781.3333333333334" y="1399.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">11</text><text x="795.3333333333334" y="1400" font-size="10.5" fill="#232F3E">labels.update  (Service accounts &gt; Labeled resources)</text>
+<circle cx="781.3333333333334" cy="1415" r="8" fill="#232F3E"/><text x="781.3333333333334" y="1418.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">12</text><text x="795.3333333333334" y="1419" font-size="10.5" fill="#232F3E">tag quality  (Evaluator &gt; Analytics)</text>
+<circle cx="781.3333333333334" cy="1434" r="8" fill="#5A6B86"/><text x="781.3333333333334" y="1437.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">13</text><text x="795.3333333333334" y="1438" font-size="10.5" fill="#232F3E">export  (Audit logs &gt; Log sink)</text>
+<circle cx="781.3333333333334" cy="1453" r="8" fill="#5A6B86"/><text x="781.3333333333334" y="1456.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">14</text><text x="795.3333333333334" y="1457" font-size="10.5" fill="#232F3E">metrics  (Evaluator &gt; Cloud Monitoring)</text>
+<circle cx="781.3333333333334" cy="1472" r="8" fill="#5A6B86"/><text x="781.3333333333334" y="1475.5" fill="#fff" font-size="9.5" font-weight="700" text-anchor="middle">15</text><text x="795.3333333333334" y="1476" font-size="10.5" fill="#232F3E">findings  (Security Command Ctr &gt; Cloud Monitoring)</text>
+<text x="40" y="1527" font-size="10.5" fill="#232F3E"><tspan font-weight="700">Note:</tspan> GCP labels are lowercase [a-z0-9_-] up to 63 chars: this is why the canonical standard is lowercase kebab-case everywhere (ADR-0001).</text>
+<text x="40" y="1553" font-size="9.5" fill="#8A94A6">Tag Governance Enforcer (multicloud) | Adamson-lab | Diagram 07 v1.1.0 | 2026-11-23 | Author: Favour Adamson | Synthetic placeholders only: no real account IDs.</text></svg>
